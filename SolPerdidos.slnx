@@ -1,1 +1,14 @@
-<Solution />
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="MiBotica.SolPedido.AccesoDatos/MiBotica.SolPedido.AccesoDatos.csproj" />
+    <Project Path="MiBotica.SolPedido.LogicaNegocio/MiBotica.SolPedido.LogicaNegocio.csproj" />
+  </Folder>
+  <Folder Name="/frontend/">
+    <Project Path="MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj" />
+  </Folder>
+  <Folder Name="/transversal/">
+    <Project Path="MiBotica.SolPedidos.Entidades/MiBotica.SolPedidos.Entidades.csproj" />
+    <Project Path="MiBotica.SolPedidos.Utiles/MiBotica.SolPedidos.Utiles.csproj" />
+    <Project Path="MiBotica.SolPedidos.UtilesWeb/MiBotica.SolPedidos.UtilesWeb.csproj" />
+  </Folder>
+</Solution>
