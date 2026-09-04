@@ -4,6 +4,22 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\.dockerignore">
+      <Link>.dockerignore</Link>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\MiBotica.SolPedido.LogicaNegocio\MiBotica.SolPedido.LogicaNegocio.csproj" />
+    <ProjectReference Include="..\MiBotica.SolPedido.Entidades\MiBotica.SolPedido.Entidades.csproj" />
+    <ProjectReference Include="..\MiBotica.SolPedido.AccesoDatos\MiBotica.SolPedido.AccesoDatos.csproj" />
+    <ProjectReference Include="..\MiBotica.SolPedido.Utiles\MiBotica.SolPedido.Utiles.csproj" />
+    <ProjectReference Include="..\MiBotica.SolPedido.UtilesWeb\MiBotica.SolPedido.UtilesWeb.csproj" />
+  </ItemGroup>
+  
 </Project>
