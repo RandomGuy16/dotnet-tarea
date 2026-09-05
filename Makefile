@@ -1,6 +1,16 @@
 # Variables
 DB_CONTAINER=mibotica_db
 
+# Detect Windows (PowerShell / cmd) vs Unix-like shells
+ifeq ($(OS),Windows_NT)
+# On Windows use backslash path for docker cp and single-quote password works in cmd/powershell
+DOCKER_CP = docker cp .\script.sql $(DB_CONTAINER):/tmp/script.sql
+SQLCMD_PASS = 'mibotica_dbA12345$$'
+else
+DOCKER_CP = docker cp ./script.sql $(DB_CONTAINER):/tmp/script.sql
+SQLCMD_PASS = 'mibotica_dbA12345$$'
+endif
+
 .PHONY: up down db-init build run test
 
 ## Muestra esta pantalla de ayuda con todos los comandos disponibles
@@ -18,14 +28,21 @@ up:
 down:
 	docker compose down
 
+
 # Aplica el script SQL del profesor automáticamente al contenedor
+# Usa variables para que funcione en Windows y Linux/macOS
 db-init:
+	@echo "Creando DB BDPedido si no existe..."
 	docker exec -i $(DB_CONTAINER) /opt/mssql-tools18/bin/sqlcmd \
-		-S localhost -U sa -P 'mibotica_dbA12345$$' -C \
+		-S localhost -U sa -P $(SQLCMD_PASS) -C \
 		-Q "IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'BDPedido') CREATE DATABASE BDPedido;"
+
+	@echo "Copiando script.sql al contenedor..."
+	$(DOCKER_CP)
+
+	@echo "Importando ./script.sql en BDPedido..."
 	docker exec -i $(DB_CONTAINER) /opt/mssql-tools18/bin/sqlcmd \
-		-S localhost -U sa -P 'mibotica_dbA12345$$' -C \
-		< ./script.sql
+		-S localhost -U sa -P $(SQLCMD_PASS) -C -i /tmp/script.sql
 
 		
 # Compila el proyecto .NET
