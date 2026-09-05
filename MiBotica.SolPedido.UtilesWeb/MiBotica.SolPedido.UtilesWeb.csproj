@@ -1,11 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <RootNamespace>MiBotica.SolPedidos.UtilesWeb</RootNamespace>
+    <RootNamespace>MiBotica.SolPedido.UtilesWeb</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

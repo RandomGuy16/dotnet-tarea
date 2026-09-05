@@ -9,6 +9,10 @@ public class UsuarioController : Controller
     // GET
     public IActionResult Index()
     {
-        return View();
+        // idk
+        List<Usuario> usuario = new List<Usuario>();
+        usuario = new UsuarioLN().ListaUsuarios();
+        
+        return View(usuario);
     }
 }

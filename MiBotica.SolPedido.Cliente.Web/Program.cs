@@ -1,4 +1,13 @@
+using MiBotica.SolPedido.AccesoDatos.Core;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Initialize Data Access connection string from appsettings.json
+var sqlConnection = builder.Configuration.GetConnectionString("SQL");
+if (!string.IsNullOrEmpty(sqlConnection))
+{
+    BaseDA.Initialize(sqlConnection);
+}
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
