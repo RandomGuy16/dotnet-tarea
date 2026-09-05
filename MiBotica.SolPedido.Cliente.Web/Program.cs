@@ -1,5 +1,12 @@
 using MiBotica.SolPedido.AccesoDatos.Core;
 
+// initialize log4net
+var logConfigPath = Path.Combine(AppContext.BaseDirectory, "log4net.config");
+if (File.Exists(logConfigPath))
+{
+    log4net.Config.XmlConfigurator.Configure(new FileInfo(logConfigPath));
+}
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Initialize Data Access connection string from appsettings.json

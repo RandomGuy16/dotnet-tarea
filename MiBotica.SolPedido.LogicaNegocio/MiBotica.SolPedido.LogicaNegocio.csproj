@@ -19,4 +19,8 @@
     <ProjectReference Include="..\MiBotica.SolPedido.Utiles\MiBotica.SolPedido.Utiles.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="3.4.0" />
+  </ItemGroup>
+
 </Project>

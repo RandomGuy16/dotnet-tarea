@@ -22,4 +22,9 @@
     <ProjectReference Include="..\MiBotica.SolPedido.UtilesWeb\MiBotica.SolPedido.UtilesWeb.csproj" />
   </ItemGroup>
   
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="3.4.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
+  </ItemGroup>
+  
 </Project>

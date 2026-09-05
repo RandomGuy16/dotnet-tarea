@@ -64,3 +64,9 @@ nunit-*.xml
 # idk
 *.log
 *.pdf
+
+# Graphify internal cache and environment
+graphify-out/cache/
+graphify-out/2026-*/
+graphify-out/.graphify_python
+graphify-out/.graphify_root

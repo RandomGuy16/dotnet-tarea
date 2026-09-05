@@ -47,8 +47,8 @@ public class UsuarioDA : BaseDA
         
         if (reader.GetSchemaTable().DefaultView.Count.Equals(1))
         {
-            if (!Convert.IsDBNull(reader["Clave"]))
-                usuario.Clave = (byte[])reader["Clave"];
+            // if (!Convert.IsDBNull(reader["Clave"]))
+            // usuario.Clave = (byte[])reader["Clave"];
         }
         reader.GetSchemaTable().DefaultView.RowFilter ="ColumnName='CodUsuario'";
 

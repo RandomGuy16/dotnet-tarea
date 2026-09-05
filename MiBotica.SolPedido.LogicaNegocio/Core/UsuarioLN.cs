@@ -3,7 +3,7 @@ using MiBotica.SolPedido.Entidades.Core;
 
 namespace MiBotica.SolPedido.LogicaNegocio.Core;
 
-public class UsuarioLN
+public class UsuarioLN : BaseLN
 {
 
     // funcion retornadora de lista usuarios
@@ -13,8 +13,9 @@ public class UsuarioLN
         {
             return new UsuarioDA().ListaUsuarios();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            Log.Error(ex);
             throw;
         }
     }
