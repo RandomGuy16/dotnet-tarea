@@ -9,12 +9,9 @@ if (File.Exists(logConfigPath))
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Initialize Data Access connection string from appsettings.json
-var sqlConnection = builder.Configuration.GetConnectionString("SQL");
-if (!string.IsNullOrEmpty(sqlConnection))
-{
-    BaseDA.Initialize(sqlConnection);
-}
+// Initialize Data Access connection string replicating the professor's pattern:
+// AppSettings:cnnSql pointer -> ConnectionStrings[pointer]
+BaseDA.Initialize(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
