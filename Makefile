@@ -6,9 +6,12 @@ ifeq ($(OS),Windows_NT)
 # On Windows use backslash path for docker cp and single-quote password works in cmd/powershell
 DOCKER_CP = docker cp .\script.sql $(DB_CONTAINER):/tmp/script.sql
 SQLCMD_PASS = 'mibotica_dbA12345$$'
+# Ejecutar con la ruta de proyecto Windows (backslashes) al usar 'make run' en Windows
+RUN_ARGS = --project .\MiBotica.SolPedido.Cliente.Web\MiBotica.SolPedido.Cliente.Web.csproj
 else
 DOCKER_CP = docker cp ./script.sql $(DB_CONTAINER):/tmp/script.sql
 SQLCMD_PASS = 'mibotica_dbA12345$$'
+RUN_ARGS = --project MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj
 endif
 
 .PHONY: up down db-init build run test
@@ -51,7 +54,7 @@ build:
 
 # Corre el proyecto .NET
 run:
-	dotnet run
+	dotnet run $(RUN_ARGS)
 
 # test project
 test:

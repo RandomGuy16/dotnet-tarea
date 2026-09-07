@@ -62,7 +62,7 @@
       "label": "MiBotica.SolPedido.AccesoDatos.Core",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L3",
+      "source_location": "L4",
       "type": "namespace",
       "metadata": {
         "kind": "csharp_namespace",
@@ -78,11 +78,11 @@
       "label": "BaseDA",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L5",
+      "source_location": "L6",
       "metadata": {
         "namespace": "MiBotica.SolPedido.AccesoDatos.Core",
         "scope_chain": [
-          "s33"
+          "s75"
         ]
       },
       "_origin": "ast",
@@ -95,11 +95,11 @@
       "label": ".Initialize()",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L10",
+      "source_location": "L11",
       "metadata": {
         "namespace": "MiBotica.SolPedido.AccesoDatos.Core",
         "scope_chain": [
-          "s33"
+          "s75"
         ]
       },
       "_origin": "ast",
@@ -109,14 +109,25 @@
       "norm_label": ".initialize()"
     },
     {
+      "label": "IConfiguration",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "iconfiguration",
+      "community": 2,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "norm_label": "iconfiguration"
+    },
+    {
       "label": ".ObtenerConexion()",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L15",
+      "source_location": "L31",
       "metadata": {
         "namespace": "MiBotica.SolPedido.AccesoDatos.Core",
         "scope_chain": [
-          "s33"
+          "s75"
         ]
       },
       "_origin": "ast",
@@ -1533,7 +1544,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "mibotica_solpedido_accesodatos_core_baseda",
@@ -1544,7 +1555,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
       "source": "mibotica_solpedido_accesodatos_core_baseda",
@@ -1600,7 +1611,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L10",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
       "source": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda",
@@ -1611,7 +1622,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L15",
+      "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
       "source": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda",
@@ -1636,7 +1647,22 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
-      "source_location": "L15",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "IConfiguration"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda_initialize",
+      "target": "iconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs",
+      "source_location": "L31",
       "weight": 1.0,
       "context": "return_type",
       "metadata": {
@@ -2871,5 +2897,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8acdea44b6081df7bc1ead5fee90978ee9d7c2c8"
+  "built_at_commit": "ed12deae719ecf0f43eead498b9ca59ab33e00d3"
 }

@@ -5,8 +5,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs": {
-    "mtime": 1788621013.3954675,
-    "ast_hash": "84657085898b9fc641501ab5d2e10ea5",
+    "mtime": 1788808581.732373,
+    "ast_hash": "c0ff2e9e9b96d125749672c948f45e18",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Program.cs": {
-    "mtime": 1788633813.00737,
-    "ast_hash": "9ea0f67f8b2826ac5882d3e90ebf30e2",
+    "mtime": 1788808600.7011025,
+    "ast_hash": "df3f032e4d5eb131a92b2c8f856bfe36",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Properties/launchSettings.json": {
@@ -95,8 +95,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/appsettings.json": {
-    "mtime": 1788559528.297,
-    "ast_hash": "64864b2ffb2adda2ecceec0e9091ce02",
+    "mtime": 1788808557.9166908,
+    "ast_hash": "0e262cb7c7c9561818820fb691f1f399",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/wwwroot/js/site.js": {
