@@ -17,8 +17,27 @@ public class UsuarioController : Controller
         return View(usuario);
     }
 
+    // GET
     public IActionResult Create()
     {
-        return View();
+        Usuario usuario = new Usuario();
+        return View(usuario);
+    }
+    // POST: Usuario/Create
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Create(Usuario usuario)
+    {
+        try
+        {
+            usuario.Clave = EncriptacionHelper.EncriptarByte(usuario.        
+                ClaveTexto);
+            new UsuarioLN().InsertarUsuario(usuario);
+            return RedirectToAction(nameof(Index));
+        }
+        catch
+        {
+            return View(usuario);
+        }
     }
 }

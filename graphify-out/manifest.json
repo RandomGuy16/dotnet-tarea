@@ -5,13 +5,13 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs": {
-    "mtime": 1788808581.732373,
+    "mtime": 1788822449.7487018,
     "ast_hash": "c0ff2e9e9b96d125749672c948f45e18",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs": {
-    "mtime": 1788630779.074,
-    "ast_hash": "d23869eaf0953374a3a7f8a954c5f557",
+    "mtime": 1789000367.159,
+    "ast_hash": "c5f969710e0b678e5d9bc65377243932",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.AccesoDatos/MiBotica.SolPedido.AccesoDatos.csproj": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs": {
-    "mtime": 1788617267.781,
-    "ast_hash": "2e76157671fe024f3096f996c6e1e911",
+    "mtime": 1789001309.973,
+    "ast_hash": "843bf1ebbb3539f58546619c12ce0333",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj": {
@@ -40,7 +40,7 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Program.cs": {
-    "mtime": 1788808600.7011025,
+    "mtime": 1788822449.7497017,
     "ast_hash": "df3f032e4d5eb131a92b2c8f856bfe36",
     "semantic_hash": ""
   },
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Index.cshtml": {
-    "mtime": 1788630352.0934658,
-    "ast_hash": "c2867d90b3ed0d5a0258371e9e4466a4",
+    "mtime": 1788998958.074,
+    "ast_hash": "d56f17408da72b2fd8456315f85aa892",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/_ViewImports.cshtml": {
@@ -95,7 +95,7 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/appsettings.json": {
-    "mtime": 1788808557.9166908,
+    "mtime": 1788822449.7507014,
     "ast_hash": "0e262cb7c7c9561818820fb691f1f399",
     "semantic_hash": ""
   },
@@ -130,8 +130,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs": {
-    "mtime": 1788633760.6859434,
-    "ast_hash": "c64aa460cdeb82f3a0f84a18aa7e3d9b",
+    "mtime": 1789000553.562,
+    "ast_hash": "3573d5e359531f3efe3fb8d14b44bf52",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.LogicaNegocio/MiBotica.SolPedido.LogicaNegocio.csproj": {
@@ -145,7 +145,7 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Utiles/MiBotica.SolPedido.Utiles.csproj": {
-    "mtime": 1788621568.8480918,
+    "mtime": 1788999129.318,
     "ast_hash": "31e1834f9418d3a62bcb75e0bf0a8b12",
     "semantic_hash": ""
   },
@@ -207,6 +207,16 @@
   "MiBotica.SolPedido.LogicaNegocio/Core/BaseLN.cs": {
     "mtime": 1788633700.6623063,
     "ast_hash": "953a891a97f9f1a78718675f71de876a",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Create.cshtml": {
+    "mtime": 1789001530.635,
+    "ast_hash": "7d839e1413e1f8c43c06927ce8c24524",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Utiles/Helpers/EncriptacionHelper.cs": {
+    "mtime": 1788999297.662,
+    "ast_hash": "87222ddbbf1e008cbcb07988b672bea5",
     "semantic_hash": ""
   }
 }

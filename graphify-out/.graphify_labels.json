@@ -1,8 +1,8 @@
 {
   "0": "MiBotica.SolPedido.Cliente.Web",
   "1": "http",
-  "2": "MiBotica.SolPedido.Entidades.Core",
-  "3": "UsuarioLN.cs",
+  "2": "Usuario",
+  "3": "MiBotica.SolPedido.Entidades.Core",
   "4": "HomeController",
   "5": "rules/graphify.md",
   "6": "workflows/graphify.md",
@@ -23,5 +23,7 @@
   "21": "site.js",
   "22": "IEnumerable<MiBotica.SolPedido.Entidades.Core.Usuario>",
   "23": "LICENSE.md",
-  "24": "jQuery Validation Unobtrusive MIT License"
+  "24": "jQuery Validation Unobtrusive MIT License",
+  "25": ".Create",
+  "26": "Create.cshtml"
 }

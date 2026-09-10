@@ -19,5 +19,18 @@ public class UsuarioLN : BaseLN
             throw;
         }
     }
+    
+    public bool InsertarUsuario(Usuario usuario)                                 
+    {
+        try
+        {
+            return new UsuarioDA().InsertarUsuario(usuario);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+            throw;
+        }                                                                        
+    }
 }
 
