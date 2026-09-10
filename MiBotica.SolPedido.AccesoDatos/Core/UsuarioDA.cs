@@ -65,5 +65,25 @@ public class UsuarioDA : BaseDA
         return usuario;
         
     }
+
+    public bool InsertarUsuario(Usuario usuario)
+    {
+        using (SqlConnection conexion = ObtenerConexion())
+        {
+            using (SqlCommand comando = new SqlCommand("paUsuario_insertar", conexion))
+            {
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@CodUsuario", usuario.CodUsuario);
+                comando.Parameters.AddWithValue("@Clave", usuario.Clave);        
+                comando.Parameters.AddWithValue("@Nombres", usuario.Nombres);    
+                                                                                 
+                conexion.Open();                                                 
+                int filasAfectadas = comando.ExecuteNonQuery();                  
+                conexion.Close();                                                
+                                                                                 
+                return filasAfectadas > 0;
+            }
+        }
+    }
 }
 
