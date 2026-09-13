@@ -1,8 +1,8 @@
 {
   "0": "MiBotica.SolPedido.Cliente.Web",
   "1": "http",
-  "2": "UsuarioDA",
-  "3": "Usuario",
+  "2": "Usuario",
+  "3": "MiBotica.SolPedido.Entidades.Core",
   "4": "HomeController",
   "5": "rules/graphify.md",
   "6": "workflows/graphify.md",

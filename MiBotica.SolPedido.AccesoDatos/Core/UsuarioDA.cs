@@ -74,8 +74,8 @@ public class UsuarioDA : BaseDA
             {
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@CodUsuario", usuario.CodUsuario);
-                comando.Parameters.AddWithValue("@Clave", usuario.Clave);        
-                comando.Parameters.AddWithValue("@Nombres", usuario.Nombres);    
+                comando.Parameters.AddWithValue("@Clave", usuario.Clave);
+                comando.Parameters.AddWithValue("@Nombres", usuario.Nombres);
                                                                                  
                 conexion.Open();                                                 
                 int filasAfectadas = comando.ExecuteNonQuery();                  
@@ -91,10 +91,10 @@ public class UsuarioDA : BaseDA
         Usuario entidad = null;
         using (SqlConnection conexion = ObtenerConexion())
         {
-            using (SqlCommand comando = new SqlCommand("paUsuario_BuscaCodUserClave", conexion))
+            using (SqlCommand comando = new SqlCommand("paBuscarUsuario", conexion))
             {
                 comando.CommandType = CommandType.StoredProcedure;
-                comando.Parameters.AddWithValue("@CodUsuario", id);
+                comando.Parameters.AddWithValue("@IdUsuario", id);
                 conexion.Open();
                 // read the return of the command
                 using (SqlDataReader reader = comando.ExecuteReader())
@@ -104,6 +104,45 @@ public class UsuarioDA : BaseDA
                 conexion.Close();
 
                 return entidad;
+            }
+        }
+    }
+
+    public bool ActualizarUsuario(Usuario usuario)
+    {
+        using (SqlConnection conexion = ObtenerConexion())
+        {
+            using (SqlCommand comando = new SqlCommand("paModificarUsuario", conexion))
+            {
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@IdUsuario", usuario.IdUsuario);
+                comando.Parameters.AddWithValue("@CodUsuario", usuario.CodUsuario);
+                comando.Parameters.AddWithValue("@Clave", usuario.Clave);
+                comando.Parameters.AddWithValue("@Nombres", usuario.Nombres);
+                
+                conexion.Open();
+                int filasAfectadas = comando.ExecuteNonQuery();
+                conexion.Close();
+                
+                return filasAfectadas > 0;
+            }
+        }
+    }
+
+    public bool EliminarUsuario(int id)
+    {
+        using (SqlConnection conexion = ObtenerConexion())
+        {
+            using (SqlCommand comando = new SqlCommand("paEliminarUsuario", conexion))
+            {
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@IdUsuario", id);
+                
+                conexion.Open();
+                int filasAfectadas = comando.ExecuteNonQuery();
+                conexion.Close();
+                
+                return filasAfectadas > 0;
             }
         }
     }

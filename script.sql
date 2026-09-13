@@ -322,3 +322,47 @@ END
 
 
 GO
+
+
+/*
+    procedures for insert and delete Usuario
+*/
+
+-- search user by id
+CREATE PROCEDURE [dbo].[paBuscarUsuario]
+        @IdUsuario int
+    AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT IdUsuario, CodUsuario, Clave, Nombres
+    FROM Usuario WHERE IdUsuario = @IdUsuario
+END
+GO
+
+-- edit user
+CREATE PROCEDURE [dbo].[paModificarUsuario]
+        @IdUsuario int,
+        @CodUsuario varchar(50),
+        @Clave binary(50),
+        @Nombres varchar(50)
+    AS
+BEGIN
+    SET NOCOUNT ON;
+    UPDATE Usuario
+    SET CodUsuario = @CodUsuario,
+        Clave = @Clave,
+        Nombres = @Nombres
+    WHERE IdUsuario = @IdUsuario
+END
+GO
+
+-- delete user
+CREATE PROCEDURE [dbo].[paEliminarUsuario]
+        @IdUsuario int
+    AS
+BEGIN
+    SET NOCOUNT ON;
+    DELETE FROM Usuario
+    WHERE IdUsuario = @IdUsuario
+END
+GO
