@@ -54,8 +54,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_baseda",
-      "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community": 2,
+      "community_name": "UsuarioDA",
       "norm_label": "baseda.cs"
     },
     {
@@ -70,8 +70,8 @@
       },
       "_origin": "ast",
       "id": "csharp_namespace:418f2c820234a8c3",
-      "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community": 2,
+      "community_name": "UsuarioDA",
       "norm_label": "mibotica.solpedido.accesodatos.core"
     },
     {
@@ -88,7 +88,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": "baseda"
     },
     {
@@ -105,7 +105,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda_initialize",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": ".initialize()"
     },
     {
@@ -116,7 +116,7 @@
       "_origin": "ast",
       "id": "iconfiguration",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": "iconfiguration"
     },
     {
@@ -133,7 +133,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda_obtenerconexion",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": ".obtenerconexion()"
     },
     {
@@ -144,7 +144,7 @@
       "_origin": "ast",
       "id": "sqlconnection",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": "sqlconnection"
     },
     {
@@ -154,8 +154,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_usuarioda",
-      "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community": 2,
+      "community_name": "UsuarioDA",
       "norm_label": "usuarioda.cs"
     },
     {
@@ -172,7 +172,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": "usuarioda"
     },
     {
@@ -189,7 +189,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_listausuarios",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": ".listausuarios()"
     },
     {
@@ -200,7 +200,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_usuarioda_cs_list",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": "list"
     },
     {
@@ -217,7 +217,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_llenarentidad",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": ".llenarentidad()"
     },
     {
@@ -228,7 +228,7 @@
       "_origin": "ast",
       "id": "idatareader",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": "idatareader"
     },
     {
@@ -245,8 +245,25 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_insertarusuario",
       "community": 2,
-      "community_name": "Usuario",
+      "community_name": "UsuarioDA",
       "norm_label": ".insertarusuario()"
+    },
+    {
+      "label": ".ObtenerUsuario()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs",
+      "source_location": "L89",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.AccesoDatos.Core",
+        "scope_chain": [
+          "s94"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_obtenerusuario",
+      "community": 2,
+      "community_name": "UsuarioDA",
+      "norm_label": ".obtenerusuario()"
     },
     {
       "label": "MiBotica.SolPedido.AccesoDatos",
@@ -365,8 +382,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "controller",
-      "community": 25,
-      "community_name": ".Create",
+      "community": 4,
+      "community_name": "HomeController",
       "norm_label": "controller"
     },
     {
@@ -450,7 +467,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "usuariocontroller.cs"
     },
     {
@@ -467,7 +484,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "usuariocontroller"
     },
     {
@@ -484,7 +501,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_index",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": ".index()"
     },
     {
@@ -495,7 +512,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_iactionresult",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "iactionresult"
     },
     {
@@ -512,7 +529,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_create",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": ".create()"
     },
     {
@@ -523,7 +540,7 @@
       "_origin": "ast",
       "id": "httppost",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "httppost"
     },
     {
@@ -534,8 +551,70 @@
       "_origin": "ast",
       "id": "validateantiforgerytoken",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "validateantiforgerytoken"
+    },
+    {
+      "label": ".Edit()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L46",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Cliente.Web.Controllers",
+        "scope_chain": [
+          "s160"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
+      "community": 25,
+      "community_name": "UsuarioController",
+      "norm_label": ".edit()"
+    },
+    {
+      "label": ".Delete()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L81",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Cliente.Web.Controllers",
+        "scope_chain": [
+          "s160"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_delete",
+      "community": 25,
+      "community_name": "UsuarioController",
+      "norm_label": ".delete()"
+    },
+    {
+      "label": ".DeleteConfirmed()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L93",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Cliente.Web.Controllers",
+        "scope_chain": [
+          "s160"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
+      "community": 25,
+      "community_name": "UsuarioController",
+      "norm_label": ".deleteconfirmed()"
+    },
+    {
+      "label": "ActionName",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "actionname",
+      "community": 25,
+      "community_name": "UsuarioController",
+      "norm_label": "actionname"
     },
     {
       "label": "MiBotica.SolPedido.Cliente.Web",
@@ -676,8 +755,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mibotica_solpedido_cliente_web_program",
-      "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community": 2,
+      "community_name": "UsuarioDA",
       "norm_label": "program.cs"
     },
     {
@@ -934,6 +1013,50 @@
       "norm_label": "mibotica.solpedido.entidades.core.usuario"
     },
     {
+      "label": "Delete.cshtml",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Delete.cshtml",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_usuario_delete",
+      "community": 27,
+      "community_name": "Delete.cshtml",
+      "norm_label": "delete.cshtml"
+    },
+    {
+      "label": "MiBotica.SolPedido.Entidades.Core.Usuario",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Delete.cshtml",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_usuario_delete_cshtml_mibotica_solpedido_entidades_core_usuario",
+      "community": 27,
+      "community_name": "Delete.cshtml",
+      "norm_label": "mibotica.solpedido.entidades.core.usuario"
+    },
+    {
+      "label": "Edit.cshtml",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Edit.cshtml",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_usuario_edit",
+      "community": 28,
+      "community_name": "Edit.cshtml",
+      "norm_label": "edit.cshtml"
+    },
+    {
+      "label": "MiBotica.SolPedido.Entidades.Core.Usuario",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Edit.cshtml",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_usuario_edit_cshtml_mibotica_solpedido_entidades_core_usuario",
+      "community": 28,
+      "community_name": "Edit.cshtml",
+      "norm_label": "mibotica.solpedido.entidades.core.usuario"
+    },
+    {
       "label": "Usuario/Index.cshtml",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Index.cshtml",
@@ -1051,7 +1174,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_entidades_core_opcion",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "opcion.cs"
     },
     {
@@ -1067,7 +1190,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:01a1e5119035c21b",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "mibotica.solpedido.entidades.core"
     },
     {
@@ -1084,7 +1207,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "opcion"
     },
     {
@@ -1095,7 +1218,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_entidades_core_usuario_cs_mibotica_solpedido_entidades_core_usuario",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "usuario.cs"
     },
     {
@@ -1111,7 +1234,7 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
-      "community": 2,
+      "community": 3,
       "community_name": "Usuario",
       "norm_label": "usuario"
     },
@@ -1200,7 +1323,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_baseln",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "baseln.cs"
     },
     {
@@ -1216,7 +1339,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:a4c42fe0e48bd3f3",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "mibotica.solpedido.logicanegocio.core"
     },
     {
@@ -1233,7 +1356,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_baseln_mibotica_solpedido_logicanegocio_core_baseln",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "baseln"
     },
     {
@@ -1244,7 +1367,7 @@
       "_origin": "ast",
       "id": "ilog",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "ilog"
     },
     {
@@ -1255,7 +1378,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_usuarioln",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "usuarioln.cs"
     },
     {
@@ -1272,7 +1395,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "usuarioln"
     },
     {
@@ -1289,7 +1412,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_listausuarios",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": ".listausuarios()"
     },
     {
@@ -1300,7 +1423,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_usuarioln_cs_list",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": "list"
     },
     {
@@ -1317,8 +1440,59 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_insertarusuario",
       "community": 3,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community_name": "Usuario",
       "norm_label": ".insertarusuario()"
+    },
+    {
+      "label": ".ObtenerUsuario()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L36",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.LogicaNegocio.Core",
+        "scope_chain": [
+          "s85"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_obtenerusuario",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": ".obtenerusuario()"
+    },
+    {
+      "label": ".ActualizarUsuario()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L49",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.LogicaNegocio.Core",
+        "scope_chain": [
+          "s85"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_actualizarusuario",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": ".actualizarusuario()"
+    },
+    {
+      "label": ".EliminarUsuario()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L62",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.LogicaNegocio.Core",
+        "scope_chain": [
+          "s85"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_eliminarusuario",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": ".eliminarusuario()"
     },
     {
       "label": "net10.0",
@@ -1405,7 +1579,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_encriptacionhelper",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "encriptacionhelper.cs"
     },
     {
@@ -1421,7 +1595,7 @@
       "_origin": "ast",
       "id": "csharp_namespace:4ddfdd03ccb2d999",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "mibotica.solpedido.utiles.helpers"
     },
     {
@@ -1438,7 +1612,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_encriptacionhelper_mibotica_solpedido_utiles_helpers_encriptacionhelper",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "encriptacionhelper"
     },
     {
@@ -1455,7 +1629,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_encriptacionhelper_mibotica_solpedido_utiles_helpers_encriptacionhelper_encriptarbyte",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": ".encriptarbyte()"
     },
     {
@@ -1472,7 +1646,7 @@
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_encriptacionhelper_mibotica_solpedido_utiles_helpers_encriptacionhelper_getsecretkey",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": ".getsecretkey()"
     },
     {
@@ -1483,7 +1657,7 @@
       "_origin": "ast",
       "id": "rfc2898derivebytes",
       "community": 25,
-      "community_name": ".Create",
+      "community_name": "UsuarioController",
       "norm_label": "rfc2898derivebytes"
     },
     {
@@ -1882,6 +2056,18 @@
       "target": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda_obtenerconexion"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_obtenerusuario",
+      "target": "mibotica_solpedido_accesodatos_core_baseda_mibotica_solpedido_accesodatos_core_baseda_obtenerconexion"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1940,6 +2126,17 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda",
       "target": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_llenarentidad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda",
+      "target": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_obtenerusuario",
       "confidence_score": 1.0
     },
     {
@@ -2015,6 +2212,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_obtenerusuario",
+      "target": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_llenarentidad",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs",
@@ -2026,6 +2235,21 @@
       },
       "_origin": "ast",
       "source": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_insertarusuario",
+      "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Usuario"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_accesodatos_core_usuarioda_mibotica_solpedido_accesodatos_core_usuarioda_obtenerusuario",
       "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
       "confidence_score": 1.0
     },
@@ -2417,6 +2641,39 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
@@ -2451,6 +2708,51 @@
       },
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_create",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_iactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L81",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IActionResult"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_delete",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_iactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IActionResult"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_iactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IActionResult"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
       "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_iactionresult",
       "confidence_score": 1.0
     },
@@ -2509,6 +2811,108 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_create",
       "target": "validateantiforgerytoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "HttpPost"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
+      "target": "httppost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "HttpPost"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
+      "target": "httppost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "ValidateAntiForgeryToken"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
+      "target": "validateantiforgerytoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "ValidateAntiForgeryToken"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
+      "target": "validateantiforgerytoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "Usuario"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
+      "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
+      "target": "mibotica_solpedido_utiles_helpers_encriptacionhelper_mibotica_solpedido_utiles_helpers_encriptacionhelper_encriptarbyte"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "ActionName"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
+      "target": "actionname",
       "confidence_score": 1.0
     },
     {
@@ -2913,6 +3317,28 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Delete.cshtml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_views_usuario_delete",
+      "target": "mibotica_solpedido_cliente_web_views_usuario_delete_cshtml_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Edit.cshtml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_views_usuario_edit",
+      "target": "mibotica_solpedido_cliente_web_views_usuario_edit_cshtml_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Index.cshtml",
       "source_location": "L1",
       "weight": 1.0,
@@ -3019,6 +3445,21 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "Usuario"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_actualizarusuario",
+      "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
       "source_location": "L23",
       "weight": 1.0,
       "context": "parameter_type",
@@ -3042,6 +3483,21 @@
       },
       "_origin": "ast",
       "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_listausuarios",
+      "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Usuario"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_obtenerusuario",
       "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
       "confidence_score": 1.0
     },
@@ -3144,6 +3600,28 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln",
+      "target": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_actualizarusuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln",
+      "target": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_eliminarusuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
@@ -3160,6 +3638,17 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln",
       "target": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_listausuarios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln",
+      "target": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_obtenerusuario",
       "confidence_score": 1.0
     },
     {
@@ -3327,5 +3816,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ce7c6e78b96473644c65c7fd0a660bf71de19860"
+  "built_at_commit": "190f49a01e3d9e157d8354367aca14675bea7cde"
 }

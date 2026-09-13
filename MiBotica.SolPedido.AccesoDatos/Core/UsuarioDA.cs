@@ -85,5 +85,27 @@ public class UsuarioDA : BaseDA
             }
         }
     }
+
+    public Usuario ObtenerUsuario(int id)
+    {
+        Usuario entidad = null;
+        using (SqlConnection conexion = ObtenerConexion())
+        {
+            using (SqlCommand comando = new SqlCommand("paUsuario_BuscaCodUserClave", conexion))
+            {
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@CodUsuario", id);
+                conexion.Open();
+                // read the return of the command
+                using (SqlDataReader reader = comando.ExecuteReader())
+                {
+                    if (reader.Read()) entidad = LlenarEntidad(reader);
+                }
+                conexion.Close();
+
+                return entidad;
+            }
+        }
+    }
 }
 
