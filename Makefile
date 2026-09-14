@@ -16,12 +16,20 @@ endif
 
 .PHONY: up down db-init build run test
 
+# Mostrar la ayuda por defecto cuando se ejecuta 'make' sin argumentos
+.DEFAULT_GOAL := help
+
 ## Muestra esta pantalla de ayuda con todos los comandos disponibles
 help:
 	@echo "Uso: make [objetivo]"
 	@echo ""
 	@echo "Objetivos disponibles:"
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
+	@echo "  up             Levanta el contenedor de SQL Server en segundo plano"
+	@echo "  down           Detiene y borra los contenedores"
+	@echo "  db-init        Aplica el script SQL al contenedor (importa script.sql)"
+	@echo "  build          Compila el proyecto .NET"
+	@echo "  run            Corre el proyecto .NET"
+	@echo "  test           Ejecuta las pruebas (dotnet test)"
 
 # Levanta el contenedor de SQL Server en segundo plano
 up:

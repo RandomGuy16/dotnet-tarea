@@ -24,6 +24,8 @@
   "22": "IEnumerable<MiBotica.SolPedido.Entidades.Core.Usuario>",
   "23": "LICENSE.md",
   "24": "jQuery Validation Unobtrusive MIT License",
-  "25": ".Create",
-  "26": "Create.cshtml"
+  "25": "UsuarioController",
+  "26": "Create.cshtml",
+  "27": "Delete.cshtml",
+  "28": "Edit.cshtml"
 }

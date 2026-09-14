@@ -32,5 +32,44 @@ public class UsuarioLN : BaseLN
             throw;
         }                                                                        
     }
+
+    public Usuario ObtenerUsuario(int id)
+    {
+        try
+        {
+            return new UsuarioDA().ObtenerUsuario(id);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+            throw;
+        }
+    }
+
+    public bool ActualizarUsuario(Usuario usuario)
+    {
+        try
+        {
+            return new UsuarioDA().ActualizarUsuario(usuario);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+            throw;
+        }
+    }
+
+    public bool EliminarUsuario(int id)
+    {
+        try
+        {
+            return new UsuarioDA().EliminarUsuario(id);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+            throw;
+        }
+    }
 }
 
