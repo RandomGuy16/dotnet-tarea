@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs": {
-    "mtime": 1789313551.5806048,
+    "mtime": 1789410974.1408129,
     "ast_hash": "dfdb36e03e6f1e54e5528f2e6bf8c4eb",
     "semantic_hash": ""
   },
@@ -25,7 +25,7 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Controllers/UsuarioController.cs": {
-    "mtime": 1789309114.484,
+    "mtime": 1789410974.1408129,
     "ast_hash": "c87deea4bd9452f1e4ec31a250abf181",
     "semantic_hash": ""
   },
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Program.cs": {
-    "mtime": 1788822449.7497017,
-    "ast_hash": "df3f032e4d5eb131a92b2c8f856bfe36",
+    "mtime": 1789433256.8607953,
+    "ast_hash": "ae151f4588af194fb588c0f2c5b7e638",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Properties/launchSettings.json": {
@@ -65,8 +65,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml": {
-    "mtime": 1788293360.3690393,
-    "ast_hash": "e4e2dc5cbd5f19349a57d9aaae30f147",
+    "mtime": 1789433297.4210873,
+    "ast_hash": "df3eed6d2e777232dcd71569e6a71cac",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Shared/_ValidationScriptsPartial.cshtml": {
@@ -130,7 +130,7 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs": {
-    "mtime": 1789310550.6286833,
+    "mtime": 1789410974.141813,
     "ast_hash": "1896493b70ef6dceec140f5c088aeadf",
     "semantic_hash": ""
   },
@@ -170,7 +170,7 @@
     "semantic_hash": ""
   },
   "script.sql": {
-    "mtime": 1789313356.788,
+    "mtime": 1789410974.1468136,
     "ast_hash": "453749d08c07f7ce9a4ffaa8d126cf86",
     "semantic_hash": ""
   },
@@ -220,13 +220,183 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Delete.cshtml": {
-    "mtime": 1789306851.7636085,
+    "mtime": 1789410974.141813,
     "ast_hash": "9483363d9862daaaa5aa19d0c3389e31",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Usuario/Edit.cshtml": {
-    "mtime": 1789306742.4335592,
-    "ast_hash": "f373dded074257a1d94f2050813e123d",
+    "mtime": 1789410974.141813,
+    "ast_hash": "273faf6030dcf21256edb8cc14a10039",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/bootstrap/package.json": {
+    "mtime": 1789433181.8810737,
+    "ast_hash": "200f78513f1f2fe6571440151a5c62c3",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/fastclick/lib/fastclick.js": {
+    "mtime": 1789433182.0958402,
+    "ast_hash": "6e9d3b0da74f2a4a7042b494cdaa7c2e",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/jquery-slimscroll/jquery.slimscroll.js": {
+    "mtime": 1789433182.1503615,
+    "ast_hash": "6ee5ab5d89857be6eaf08b63eb3246b0",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/jquery-slimscroll/jquery.slimscroll.min.js": {
+    "mtime": 1789433182.1505268,
+    "ast_hash": "f1dbc7920f93bd2b1dcfede95b473e4e",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/jquery-slimscroll/package.json": {
+    "mtime": 1789433182.1506276,
+    "ast_hash": "90c70114ad6954a42d0777c833e09d1c",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/icheck.js": {
+    "mtime": 1789433182.5539527,
+    "ast_hash": "99cfbead758ede6160e165a21deb96ce",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/icheck.min.js": {
+    "mtime": 1789433182.5547938,
+    "ast_hash": "8011794c92c6e1476cc7c5811c5c2095",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/bootstrap/CHANGELOG.md": {
+    "mtime": 1789433181.8670266,
+    "ast_hash": "f2a4904d02b7236eb9de6585846cd1cf",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/bootstrap/ISSUE_TEMPLATE.md": {
+    "mtime": 1789433181.867328,
+    "ast_hash": "db34f9d764be95c966d3cfe7cb39aecd",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/font-awesome/HELP-US-OUT.txt": {
+    "mtime": 1789433182.096565,
+    "ast_hash": "a1e5be58e81e919ba2e579cd1c65283e",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/fullcalendar/CHANGELOG.md": {
+    "mtime": 1789433182.1104312,
+    "ast_hash": "cb549f9d381b3f29fa6c127d91033844",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/fullcalendar/CONTRIBUTING.md": {
+    "mtime": 1789433182.1105392,
+    "ast_hash": "bc061e66d2dd98526bb250e739ffa792",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/Ionicons/fonts/ionicons.svg": {
+    "mtime": 1789433181.783793,
+    "ast_hash": "621bd386841f74e0053cb8e67f8a0604",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/font-awesome/fonts/fontawesome-webfont.svg": {
+    "mtime": 1789433182.098591,
+    "ast_hash": "912ec66d7572ff821749319396470bde",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/aero.png": {
+    "mtime": 1789433182.5643272,
+    "ast_hash": "5681c3c82b05e7236a747304d9efc65f",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/aero@2x.png": {
+    "mtime": 1789433182.5644224,
+    "ast_hash": "e87893c94fe3c1ef0c4684ac92f47cc1",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/blue.png": {
+    "mtime": 1789433182.5646029,
+    "ast_hash": "96f8a9053c5b1ab49111b9e243fd5c38",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/blue@2x.png": {
+    "mtime": 1789433182.5646958,
+    "ast_hash": "2694acfdd21dfca86aa67beac8e0a108",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/green.png": {
+    "mtime": 1789433182.5703573,
+    "ast_hash": "869a3a67e8e1ca55bc5ee0a70438f320",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/green@2x.png": {
+    "mtime": 1789433182.570751,
+    "ast_hash": "1a0de24f0bfb1a31dd5d2a11c94484e7",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/grey.png": {
+    "mtime": 1789433182.5709915,
+    "ast_hash": "aed7d43e7f00789bf6e18c6bb9570d14",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/grey@2x.png": {
+    "mtime": 1789433182.5710933,
+    "ast_hash": "fec2537d7a4b8ceb5a26fd7bf1b22dee",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/orange.png": {
+    "mtime": 1789433182.5712929,
+    "ast_hash": "a0ef9dc171052d43ca07023635da2af3",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/orange@2x.png": {
+    "mtime": 1789433182.5713892,
+    "ast_hash": "b9b55a9183b928c68be28c59bd12821a",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/pink.png": {
+    "mtime": 1789433182.5715892,
+    "ast_hash": "5db00a177725022a6a1249537583a738",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/pink@2x.png": {
+    "mtime": 1789433182.5716817,
+    "ast_hash": "61bca2872be7b37b479026896c86babf",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/purple.png": {
+    "mtime": 1789433182.5718586,
+    "ast_hash": "9284a1280875a68f96b31d512155d35f",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/purple@2x.png": {
+    "mtime": 1789433182.5719557,
+    "ast_hash": "fca6329c2e393036dcf6e2b3500c545c",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/red.png": {
+    "mtime": 1789433182.5722024,
+    "ast_hash": "5902e033b5c08edf7ddeef3c435c5a44",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/red@2x.png": {
+    "mtime": 1789433182.572314,
+    "ast_hash": "c517aac442b70478eedfdd5438d621d5",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/square.png": {
+    "mtime": 1789433182.5725245,
+    "ast_hash": "86ba927efe80c36da9a4b76ed5768fce",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/square@2x.png": {
+    "mtime": 1789433182.5726275,
+    "ast_hash": "a711b529b4fe1f20f0f9850c67a87848",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/yellow.png": {
+    "mtime": 1789433182.5728354,
+    "ast_hash": "251d5e87dd14be5dc1f2f3fa4b405d92",
+    "semantic_hash": ""
+  },
+  "MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/square/yellow@2x.png": {
+    "mtime": 1789433182.572966,
+    "ast_hash": "334c995aadc9bc51d9ba042af807cf3c",
     "semantic_hash": ""
   }
 }
