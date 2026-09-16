@@ -65,8 +65,8 @@
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml": {
-    "mtime": 1789587263.483483,
-    "ast_hash": "51d877fa0ff69d3a5612c9505c30cb11",
+    "mtime": 1789602383.7134168,
+    "ast_hash": "53e6d67aa6eb873f2b39dbf01f95a507",
     "semantic_hash": ""
   },
   "MiBotica.SolPedido.Cliente.Web/Views/Shared/_ValidationScriptsPartial.cshtml": {
