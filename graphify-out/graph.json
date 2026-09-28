@@ -416,8 +416,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "controller",
-      "community": 25,
-      "community_name": "UsuarioController",
+      "community": 4,
+      "community_name": "HomeController",
       "norm_label": "controller"
     },
     {
@@ -492,6 +492,101 @@
       "community": 4,
       "community_name": "HomeController",
       "norm_label": "responsecache"
+    },
+    {
+      "label": "LoginController.cs",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": "logincontroller.cs"
+    },
+    {
+      "label": "LoginController",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L10",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Cliente.Web.Controllers",
+        "scope_chain": [
+          "s245"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "community": 4,
+      "community_name": "HomeController",
+      "norm_label": "logincontroller"
+    },
+    {
+      "label": ".Index()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L13",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Cliente.Web.Controllers",
+        "scope_chain": [
+          "s245"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_index",
+      "community": 4,
+      "community_name": "HomeController",
+      "norm_label": ".index()"
+    },
+    {
+      "label": "IActionResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_logincontroller_cs_iactionresult",
+      "community": 4,
+      "community_name": "HomeController",
+      "norm_label": "iactionresult"
+    },
+    {
+      "label": "HttpPost",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_logincontroller_cs_httppost",
+      "community": 4,
+      "community_name": "HomeController",
+      "norm_label": "httppost"
+    },
+    {
+      "label": ".CerrarSesion()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L28",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Cliente.Web.Controllers",
+        "scope_chain": [
+          "s245"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_cerrarsesion",
+      "community": 4,
+      "community_name": "HomeController",
+      "norm_label": ".cerrarsesion()"
+    },
+    {
+      "label": "Task",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "task",
+      "community": 4,
+      "community_name": "HomeController",
+      "norm_label": "task"
     },
     {
       "label": "UsuarioController.cs",
@@ -572,7 +667,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "httppost",
+      "id": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_httppost",
       "community": 25,
       "community_name": "UsuarioController",
       "norm_label": "httppost"
@@ -992,6 +1087,28 @@
       "norm_label": "privacy.cshtml"
     },
     {
+      "label": "Login/Index.cshtml",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Login/Index.cshtml",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_login_index",
+      "community": 31,
+      "community_name": "Login/Index.cshtml",
+      "norm_label": "login/index.cshtml"
+    },
+    {
+      "label": "MiBotica.SolPedido.Entidades.Core.Usuario",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Login/Index.cshtml",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_login_index_cshtml_mibotica_solpedido_entidades_core_usuario",
+      "community": 31,
+      "community_name": "Login/Index.cshtml",
+      "norm_label": "mibotica.solpedido.entidades.core.usuario"
+    },
+    {
       "label": "Error.cshtml",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/Error.cshtml",
@@ -1012,6 +1129,50 @@
       "community": 18,
       "community_name": "_Layout.cshtml",
       "norm_label": "_layout.cshtml"
+    },
+    {
+      "label": "MiBotica.SolPedido.Entidades.Core",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_entidades_core",
+      "community": 18,
+      "community_name": "_Layout.cshtml",
+      "norm_label": "mibotica.solpedido.entidades.core"
+    },
+    {
+      "label": "MiBotica.SolPedido.Utiles.Helpers",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers",
+      "community": 18,
+      "community_name": "_Layout.cshtml",
+      "norm_label": "mibotica.solpedido.utiles.helpers"
+    },
+    {
+      "label": "MiBotica.SolPedido.Entidades",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_entidades",
+      "community": 18,
+      "community_name": "_Layout.cshtml",
+      "norm_label": "mibotica.solpedido.entidades"
+    },
+    {
+      "label": "_LayoutLogin.cshtml",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_LayoutLogin.cshtml",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "mibotica_solpedido_cliente_web_views_shared_layoutlogin",
+      "community": 32,
+      "community_name": "_LayoutLogin.cshtml",
+      "norm_label": "_layoutlogin.cshtml"
     },
     {
       "label": "_ValidationScriptsPartial.cshtml",
@@ -3198,8 +3359,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
-      "community": 3,
-      "community_name": "Usuario",
+      "community": 30,
+      "community_name": ".HelperMenu",
       "norm_label": "opcion"
     },
     {
@@ -3262,6 +3423,61 @@
       "community": 0,
       "community_name": "MiBotica.SolPedido.Cliente.Web",
       "norm_label": "microsoft.net.sdk"
+    },
+    {
+      "label": "VariablesWeb.cs",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_entidades_variablesweb",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": "variablesweb.cs"
+    },
+    {
+      "label": "MiBotica.SolPedido.Entidades",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L3",
+      "type": "namespace",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "MiBotica.SolPedido.Entidades"
+      },
+      "_origin": "ast",
+      "id": "csharp_namespace:d8c70a9d20469983",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": "mibotica.solpedido.entidades"
+    },
+    {
+      "label": "VariablesWeb",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L5",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Entidades",
+        "scope_chain": [
+          "s42"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_entidades_variablesweb_mibotica_solpedido_entidades_variablesweb",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": "variablesweb"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_entidades_variablesweb_cs_list",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": "list"
     },
     {
       "label": "MiBotica.SolPedido.LogicaNegocio/Class1.cs",
@@ -3653,6 +3869,185 @@
       "norm_label": "rfc2898derivebytes"
     },
     {
+      "label": "MenuHelper.cs",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper",
+      "community": 3,
+      "community_name": "Usuario",
+      "norm_label": "menuhelper.cs"
+    },
+    {
+      "label": "MenuHelper",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L11",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_chain": [
+          "s258"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "menuhelper"
+    },
+    {
+      "label": ".HelperMenu()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L13",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_chain": [
+          "s258"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": ".helpermenu()"
+    },
+    {
+      "label": "IHtmlHelper",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "ihtmlhelper",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "ihtmlhelper"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_cs_list",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "list"
+    },
+    {
+      "label": "IHtmlContent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "ihtmlcontent",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "ihtmlcontent"
+    },
+    {
+      "label": ".LlenarOpcionMenu()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L79",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_chain": [
+          "s258"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": ".llenaropcionmenu()"
+    },
+    {
+      "label": "TagBuilder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "tagbuilder",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "tagbuilder"
+    },
+    {
+      "label": "IUrlHelper",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "iurlhelper",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "iurlhelper"
+    },
+    {
+      "label": ".GeneraHRef()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L130",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_chain": [
+          "s258"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": ".generahref()"
+    },
+    {
+      "label": ".RetornaObjetoParametros()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L175",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_chain": [
+          "s258"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_retornaobjetoparametros",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": ".retornaobjetoparametros()"
+    },
+    {
+      "label": "RouteValueDictionary",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "routevaluedictionary",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": "routevaluedictionary"
+    },
+    {
+      "label": ".RenderTag()",
+      "file_type": "code",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L190",
+      "metadata": {
+        "namespace": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_chain": [
+          "s258"
+        ]
+      },
+      "_origin": "ast",
+      "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_rendertag",
+      "community": 30,
+      "community_name": ".HelperMenu",
+      "norm_label": ".rendertag()"
+    },
+    {
       "label": "net10.0",
       "file_type": "concept",
       "source_file": "MiBotica.SolPedido.Utiles/MiBotica.SolPedido.Utiles.csproj",
@@ -3972,6 +4367,193 @@
       "norm_label": "license.md"
     },
     {
+      "label": "tarea.md",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tarea",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "tarea.md"
+    },
+    {
+      "label": "Transcripci\u00f3n del Proyecto: Pasos 41 al 54",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tarea_transcripci\u00f3n_del_proyecto_pasos_41_al_54",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "transcripcion del proyecto: pasos 41 al 54"
+    },
+    {
+      "label": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "menus personalizados y seguridad (autenticacion inicial)"
+    },
+    {
+      "label": "41. Proceso para crear los Men\u00fas personalizados",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "tarea_41_proceso_para_crear_los_men\u00fas_personalizados",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "41. proceso para crear los menus personalizados"
+    },
+    {
+      "label": "42. Referencias y diferenciaci\u00f3n de Usuario en el Layout",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "tarea_42_referencias_y_diferenciaci\u00f3n_de_usuario_en_el_layout",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "42. referencias y diferenciacion de usuario en el layout"
+    },
+    {
+      "label": "43. Personalizaci\u00f3n para Usuario Autenticado",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L165",
+      "_origin": "ast",
+      "id": "tarea_43_personalizaci\u00f3n_para_usuario_autenticado",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "43. personalizacion para usuario autenticado"
+    },
+    {
+      "label": "44. Personalizaci\u00f3n para Usuario No Autenticado (Invitado)",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L179",
+      "_origin": "ast",
+      "id": "tarea_44_personalizaci\u00f3n_para_usuario_no_autenticado_invitado",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "44. personalizacion para usuario no autenticado (invitado)"
+    },
+    {
+      "label": "45. C\u00f3digo consolidado de la cabecera del Layout",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "tarea_45_c\u00f3digo_consolidado_de_la_cabecera_del_layout",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "45. codigo consolidado de la cabecera del layout"
+    },
+    {
+      "label": "46. Configuraci\u00f3n de autenticaci\u00f3n en Web.config",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L289",
+      "_origin": "ast",
+      "id": "tarea_46_configuraci\u00f3n_de_autenticaci\u00f3n_en_web_config",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "46. configuracion de autenticacion en web.config"
+    },
+    {
+      "label": "47. Estructura de la tabla de opciones en BD",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L305",
+      "_origin": "ast",
+      "id": "tarea_47_estructura_de_la_tabla_de_opciones_en_bd",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "47. estructura de la tabla de opciones en bd"
+    },
+    {
+      "label": "48. Generaci\u00f3n del Men\u00fa Din\u00e1mico (`MenuHelper.cs`)",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L324",
+      "_origin": "ast",
+      "id": "tarea_48_generaci\u00f3n_del_men\u00fa_din\u00e1mico_menuhelper_cs",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "48. generacion del menu dinamico (`menuhelper.cs`)"
+    },
+    {
+      "label": "49. Creaci\u00f3n del Controlador `LoginController`",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L518",
+      "_origin": "ast",
+      "id": "tarea_49_creaci\u00f3n_del_controlador_logincontroller",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "49. creacion del controlador `logincontroller`"
+    },
+    {
+      "label": "50. Creaci\u00f3n del Layout de Login (`_LayoutLogin.cshtml`)",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L547",
+      "_origin": "ast",
+      "id": "tarea_50_creaci\u00f3n_del_layout_de_login_layoutlogin_cshtml",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "50. creacion del layout de login (`_layoutlogin.cshtml`)"
+    },
+    {
+      "label": "51. Estructura y C\u00f3digo de `_LayoutLogin.cshtml`",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L555",
+      "_origin": "ast",
+      "id": "tarea_51_estructura_y_c\u00f3digo_de_layoutlogin_cshtml",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "51. estructura y codigo de `_layoutlogin.cshtml`"
+    },
+    {
+      "label": "52. Vista de Autenticaci\u00f3n (`Views/Login/Index.cshtml`)",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L612",
+      "_origin": "ast",
+      "id": "tarea_52_vista_de_autenticaci\u00f3n_views_login_index_cshtml",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "52. vista de autenticacion (`views/login/index.cshtml`)"
+    },
+    {
+      "label": "53. Redirecci\u00f3n al Login desde `_Layout.cshtml`",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L680",
+      "_origin": "ast",
+      "id": "tarea_53_redirecci\u00f3n_al_login_desde_layout_cshtml",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "53. redireccion al login desde `_layout.cshtml`"
+    },
+    {
+      "label": "54. Verificaci\u00f3n y Prueba de Autenticaci\u00f3n",
+      "file_type": "document",
+      "source_file": "tarea.md",
+      "source_location": "L695",
+      "_origin": "ast",
+      "id": "tarea_54_verificaci\u00f3n_y_prueba_de_autenticaci\u00f3n",
+      "community": 29,
+      "community_name": "Men\u00fas Personalizados y Seguridad (Autenticaci\u00f3n Inicial)",
+      "norm_label": "54. verificacion y prueba de autenticacion"
+    },
+    {
       "label": "jQuery Validation Unobtrusive MIT License",
       "file_type": "document",
       "source_file": "MiBotica.SolPedido.Cliente.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
@@ -4093,7 +4675,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Program.cs",
-      "source_location": "L1",
+      "source_location": "L2",
       "weight": 1.0,
       "metadata": {
         "using_kind": "namespace",
@@ -4602,6 +5184,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/MiBotica.SolPedido.Utiles.csproj",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_mibotica_solpedido_utiles",
+      "target": "mibotica_solpedido_entidades_mibotica_solpedido_entidades",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "SolPerdidos.slnx",
@@ -4648,6 +5240,17 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_homecontroller",
       "target": "mibotica_solpedido_cliente_web_controllers_homecontroller_mibotica_solpedido_cliente_web_controllers_homecontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "csharp_namespace:9c87c8352f87c5f4",
       "confidence_score": 1.0
     },
     {
@@ -4706,6 +5309,20 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_homecontroller_mibotica_solpedido_cliente_web_controllers_homecontroller",
       "target": "mibotica_solpedido_cliente_web_controllers_homecontroller_mibotica_solpedido_cliente_web_controllers_homecontroller_privacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "metadata": {
+        "ref_token": "Controller"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "controller",
       "confidence_score": 1.0
     },
     {
@@ -4780,6 +5397,165 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_homecontroller_mibotica_solpedido_cliente_web_controllers_homecontroller_error",
       "target": "responsecache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "MiBotica.SolPedido.Entidades.Core",
+        "scope_kind": "file"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "csharp_namespace:01a1e5119035c21b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "MiBotica.SolPedido.Utiles.Helpers",
+        "scope_kind": "file"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "csharp_namespace:4ddfdd03ccb2d999",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "MiBotica.SolPedido.Entidades",
+        "scope_kind": "file"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "csharp_namespace:d8c70a9d20469983",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_cerrarsesion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller",
+      "target": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "HttpPost"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_index",
+      "target": "mibotica_solpedido_cliente_web_controllers_logincontroller_cs_httppost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IActionResult"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_index",
+      "target": "mibotica_solpedido_cliente_web_controllers_logincontroller_cs_iactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "Usuario"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_index",
+      "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "IActionResult"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_cerrarsesion",
+      "target": "mibotica_solpedido_cliente_web_controllers_logincontroller_cs_iactionresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Controllers/LoginController.cs",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_controllers_logincontroller_mibotica_solpedido_cliente_web_controllers_logincontroller_cerrarsesion",
+      "target": "task",
       "confidence_score": 1.0
     },
     {
@@ -4986,7 +5762,7 @@
       },
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_create",
-      "target": "httppost",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_httppost",
       "confidence_score": 1.0
     },
     {
@@ -5043,7 +5819,7 @@
       },
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_deleteconfirmed",
-      "target": "httppost",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_httppost",
       "confidence_score": 1.0
     },
     {
@@ -5058,7 +5834,7 @@
       },
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_mibotica_solpedido_cliente_web_controllers_usuariocontroller_edit",
-      "target": "httppost",
+      "target": "mibotica_solpedido_cliente_web_controllers_usuariocontroller_cs_httppost",
       "confidence_score": 1.0
     },
     {
@@ -5519,6 +6295,50 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_properties_launchsettings_profiles_https",
       "target": "mibotica_solpedido_cliente_web_properties_launchsettings_https_launchbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Login/Index.cshtml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_views_login_index",
+      "target": "mibotica_solpedido_cliente_web_views_login_index_cshtml_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_views_shared_layout",
+      "target": "mibotica_solpedido_entidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_views_shared_layout",
+      "target": "mibotica_solpedido_entidades_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/Views/Shared/_Layout.cshtml",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_views_shared_layout",
+      "target": "mibotica_solpedido_utiles_helpers",
       "confidence_score": 1.0
     },
     {
@@ -8110,6 +8930,23 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "MiBotica.SolPedido.Entidades.Core",
+        "scope_kind": "file"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_entidades_variablesweb",
+      "target": "csharp_namespace:01a1e5119035c21b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs",
       "source_location": "L2",
       "weight": 1.0,
@@ -8124,6 +8961,83 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "metadata": {
+        "using_kind": "namespace",
+        "target_fqn": "MiBotica.SolPedido.Entidades.Core",
+        "scope_kind": "file"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "csharp_namespace:01a1e5119035c21b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "Opcion"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_entidades_variablesweb_mibotica_solpedido_entidades_variablesweb",
+      "target": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "Opcion"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "target": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "Opcion"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "Opcion"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "target": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.Entidades/Core/Usuario.cs",
@@ -8131,6 +9045,21 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "mibotica_solpedido_entidades_core_usuario_cs_mibotica_solpedido_entidades_core_usuario",
+      "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "Usuario"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_entidades_variablesweb_mibotica_solpedido_entidades_variablesweb",
       "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
       "confidence_score": 1.0
     },
@@ -8192,6 +9121,43 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_logicanegocio_core_usuarioln_mibotica_solpedido_logicanegocio_core_usuarioln_obtenerusuario",
       "target": "mibotica_solpedido_entidades_core_usuario_mibotica_solpedido_entidades_core_usuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_entidades_variablesweb",
+      "target": "csharp_namespace:d8c70a9d20469983",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_entidades_variablesweb",
+      "target": "mibotica_solpedido_entidades_variablesweb_mibotica_solpedido_entidades_variablesweb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Entidades/VariablesWeb.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_entidades_variablesweb_mibotica_solpedido_entidades_variablesweb",
+      "target": "mibotica_solpedido_entidades_variablesweb_cs_list",
       "confidence_score": 1.0
     },
     {
@@ -8404,6 +9370,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "csharp_namespace:4ddfdd03ccb2d999",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.Utiles/Helpers/EncriptacionHelper.cs",
@@ -8450,6 +9427,282 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_utiles_helpers_encriptacionhelper_mibotica_solpedido_utiles_helpers_encriptacionhelper_getsecretkey",
       "target": "rfc2898derivebytes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_rendertag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_retornaobjetoparametros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IHtmlContent"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "ihtmlcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "IHtmlHelper"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "ihtmlhelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_cs_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_rendertag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_cs_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L190",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IHtmlContent"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_rendertag",
+      "target": "ihtmlcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "IUrlHelper"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "target": "iurlhelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "TagBuilder"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
+      "target": "tagbuilder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L190",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "TagBuilder"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_rendertag",
+      "target": "tagbuilder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "IUrlHelper"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "target": "iurlhelper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
+      "target": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_retornaobjetoparametros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Utiles/Helpers/MenuHelper.cs",
+      "source_location": "L175",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "RouteValueDictionary"
+      },
+      "_origin": "ast",
+      "source": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_retornaobjetoparametros",
+      "target": "routevaluedictionary",
       "confidence_score": 1.0
     },
     {
@@ -8618,6 +9871,182 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea",
+      "target": "tarea_transcripci\u00f3n_del_proyecto_pasos_41_al_54",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_transcripci\u00f3n_del_proyecto_pasos_41_al_54",
+      "target": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_41_proceso_para_crear_los_men\u00fas_personalizados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_42_referencias_y_diferenciaci\u00f3n_de_usuario_en_el_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_43_personalizaci\u00f3n_para_usuario_autenticado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_44_personalizaci\u00f3n_para_usuario_no_autenticado_invitado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_45_c\u00f3digo_consolidado_de_la_cabecera_del_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L289",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_46_configuraci\u00f3n_de_autenticaci\u00f3n_en_web_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_47_estructura_de_la_tabla_de_opciones_en_bd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L324",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_48_generaci\u00f3n_del_men\u00fa_din\u00e1mico_menuhelper_cs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L518",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_49_creaci\u00f3n_del_controlador_logincontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L547",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_50_creaci\u00f3n_del_layout_de_login_layoutlogin_cshtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L555",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_51_estructura_y_c\u00f3digo_de_layoutlogin_cshtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L612",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_52_vista_de_autenticaci\u00f3n_views_login_index_cshtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L680",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_53_redirecci\u00f3n_al_login_desde_layout_cshtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tarea.md",
+      "source_location": "L695",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tarea_men\u00fas_personalizados_y_seguridad_autenticaci\u00f3n_inicial",
+      "target": "tarea_54_verificaci\u00f3n_y_prueba_de_autenticaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "shares_data_with",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8630,5 +10059,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aee094a9c732b0d125dd05e0d894eb36670a490b"
+  "built_at_commit": "ee6c36a2328f686872e5512c9b2fdae199de3c78"
 }
