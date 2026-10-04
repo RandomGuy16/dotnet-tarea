@@ -1,11 +1,10 @@
-﻿using MiBotica.SolPedido.Entidades.Core;
-using System.Configuration;
+using MiBotica.SolPedido.Entidades.Core;
 using System.Data;
 using Microsoft.Data.SqlClient;
 
 namespace MiBotica.SolPedido.AccesoDatos.Core
 {
-    public class OpcionDA
+    public class OpcionDA : BaseDA
     {
         public Opcion LlenarEntidad(IDataReader reader)
         {
@@ -61,8 +60,7 @@ namespace MiBotica.SolPedido.AccesoDatos.Core
             List<Opcion> listaEntidad = new List<Opcion>();
             Opcion entidad = null;
 
-            // Obtener la cadena de conexión por nombre desde ConnectionStrings
-            using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["cnnSql"].ConnectionString))
+            using (SqlConnection conexion = ObtenerConexion())
             {
                 using (SqlCommand comando = new SqlCommand("paOpcionLista", conexion))
                 {
