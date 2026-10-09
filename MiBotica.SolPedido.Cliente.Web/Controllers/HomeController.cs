@@ -16,9 +16,19 @@ public class HomeController : Controller
         return View();
     }
 
+    // Equivalente a <error statusCode="500" redirect="Home/Error500"/>
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    [Microsoft.AspNetCore.Authorization.AllowAnonymous]
+    public IActionResult Error500()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View();
+    }
+
+    // Equivalente a <error statusCode="404" redirect="Home/PaginaNoEncontrada"/>
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    [Microsoft.AspNetCore.Authorization.AllowAnonymous]
+    public IActionResult PaginaNoEncontrada()
+    {
+        return View();
     }
 }
