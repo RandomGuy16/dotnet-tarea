@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   "SolPerdidos.slnx": {
-    "mtime": 1788561627.5549297,
-    "ast_hash": "1f6e0ee3e5b238c6bd990d7d2c9056d0",
+    "mtime": 1791568864.7504513,
+    "ast_hash": "df616b9a2811c2b84ec53bdc8932bdb7",
     "semantic_hash": ""
   },
   "dotnet-tools.json": {
@@ -447,6 +447,36 @@
   "MiBotica.SolPedido.LogicaNegocio/Core/OpcionLN.cs": {
     "mtime": 1791091622.0986998,
     "ast_hash": "a9f54a54f9137bdebfe8e2a6f109db5e",
+    "semantic_hash": ""
+  },
+  "ApiUsuario/ApiUsuario.csproj": {
+    "mtime": 1791569087.4504488,
+    "ast_hash": "d2e166ab2a8f8e3309e643e7c4d327f3",
+    "semantic_hash": ""
+  },
+  "ApiUsuario/Controllers/ValuesController.cs": {
+    "mtime": 1791570650.2497735,
+    "ast_hash": "42583d2ed70c4de35669d972c6ffdc53",
+    "semantic_hash": ""
+  },
+  "ApiUsuario/Program.cs": {
+    "mtime": 1791570642.037661,
+    "ast_hash": "53c53feef43e3287b2405a3c64088f86",
+    "semantic_hash": ""
+  },
+  "ApiUsuario/Properties/launchSettings.json": {
+    "mtime": 1791568856.225337,
+    "ast_hash": "6077fad6733569bc6126e0ce50e395bd",
+    "semantic_hash": ""
+  },
+  "ApiUsuario/appsettings.Development.json": {
+    "mtime": 1791568856.2083368,
+    "ast_hash": "477a525a47fc9bdbbf94690e6633d843",
+    "semantic_hash": ""
+  },
+  "ApiUsuario/appsettings.json": {
+    "mtime": 1791568856.216337,
+    "ast_hash": "732f4d75514e890746f0170256ed9654",
     "semantic_hash": ""
   }
 }

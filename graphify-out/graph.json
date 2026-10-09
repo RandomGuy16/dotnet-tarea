@@ -4,6 +4,359 @@
   "graph": {},
   "nodes": [
     {
+      "label": "ApiUsuario",
+      "file_type": "code",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "apiusuario_apiusuario",
+      "community": 0,
+      "community_name": "MiBotica.SolPedido.Cliente.Web",
+      "norm_label": "apiusuario"
+    },
+    {
+      "label": "net10.0",
+      "file_type": "concept",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "apiusuario_apiusuario_csproj_framework_net10_0",
+      "community": 0,
+      "community_name": "MiBotica.SolPedido.Cliente.Web",
+      "norm_label": "net10.0"
+    },
+    {
+      "label": "Microsoft.AspNetCore.OpenApi (10.0.12)",
+      "file_type": "code",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "nuget_microsoft_aspnetcore_openapi",
+      "community": 0,
+      "community_name": "MiBotica.SolPedido.Cliente.Web",
+      "norm_label": "microsoft.aspnetcore.openapi (10.0.12)"
+    },
+    {
+      "label": "Microsoft.NET.Sdk.Web",
+      "file_type": "concept",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "source_location": null,
+      "_origin": "ast",
+      "id": "apiusuario_apiusuario_csproj_sdk_microsoft_net_sdk_web",
+      "community": 0,
+      "community_name": "MiBotica.SolPedido.Cliente.Web",
+      "norm_label": "microsoft.net.sdk.web"
+    },
+    {
+      "label": "ValuesController.cs",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "apiusuario_controllers_valuescontroller",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "valuescontroller.cs"
+    },
+    {
+      "label": "ApiUsuario.Controllers",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L3",
+      "type": "namespace",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "ApiUsuario.Controllers"
+      },
+      "_origin": "ast",
+      "id": "csharp_namespace:82a585a095688810",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "apiusuario.controllers"
+    },
+    {
+      "label": "ValuesController",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L5",
+      "metadata": {
+        "namespace": "ApiUsuario.Controllers",
+        "scope_chain": [
+          "s33"
+        ]
+      },
+      "_origin": "ast",
+      "id": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "valuescontroller"
+    },
+    {
+      "label": "ControllerBase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "controllerbase",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "controllerbase"
+    },
+    {
+      "label": ".Get()",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L10",
+      "metadata": {
+        "namespace": "ApiUsuario.Controllers",
+        "scope_chain": [
+          "s33"
+        ]
+      },
+      "_origin": "ast",
+      "id": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_get",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": ".get()"
+    },
+    {
+      "label": "IEnumerable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "ienumerable",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "ienumerable"
+    },
+    {
+      "label": "HttpGet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "httpget",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "httpget"
+    },
+    {
+      "label": ".Post()",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L24",
+      "metadata": {
+        "namespace": "ApiUsuario.Controllers",
+        "scope_chain": [
+          "s33"
+        ]
+      },
+      "_origin": "ast",
+      "id": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_post",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": ".post()"
+    },
+    {
+      "label": "HttpPost",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "apiusuario_controllers_valuescontroller_cs_httppost",
+      "community": 47,
+      "community_name": "ValuesController",
+      "norm_label": "httppost"
+    },
+    {
+      "label": "ApiUsuario/Program.cs",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Program.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "apiusuario_program",
+      "community": 48,
+      "community_name": "ApiUsuario/Program.cs",
+      "norm_label": "apiusuario/program.cs"
+    },
+    {
+      "label": "ApiUsuario/Properties/launchSettings.json",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "apiusuario/properties/launchsettings.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_schema",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "$schema"
+    },
+    {
+      "label": "profiles",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_profiles",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "profiles"
+    },
+    {
+      "label": "http",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_profiles_http",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "http"
+    },
+    {
+      "label": "commandName",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_http_commandname",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "commandname"
+    },
+    {
+      "label": "dotnetRunMessages",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_http_dotnetrunmessages",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "dotnetrunmessages"
+    },
+    {
+      "label": "launchBrowser",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_http_launchbrowser",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "launchbrowser"
+    },
+    {
+      "label": "applicationUrl",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_http_applicationurl",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "applicationurl"
+    },
+    {
+      "label": "environmentVariables",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_http_environmentvariables",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "environmentvariables"
+    },
+    {
+      "label": "ASPNETCORE_ENVIRONMENT",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_environmentvariables_aspnetcore_environment",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "aspnetcore_environment"
+    },
+    {
+      "label": "https",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_profiles_https",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "https"
+    },
+    {
+      "label": "commandName",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_https_commandname",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "commandname"
+    },
+    {
+      "label": "dotnetRunMessages",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_https_dotnetrunmessages",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "dotnetrunmessages"
+    },
+    {
+      "label": "launchBrowser",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_https_launchbrowser",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "launchbrowser"
+    },
+    {
+      "label": "applicationUrl",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_https_applicationurl",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "applicationurl"
+    },
+    {
+      "label": "environmentVariables",
+      "file_type": "code",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "apiusuario_properties_launchsettings_https_environmentvariables",
+      "community": 30,
+      "community_name": "http",
+      "norm_label": "environmentvariables"
+    },
+    {
       "label": "MiBotica.SolPedido.AccesoDatos/Class1.cs",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.AccesoDatos/Class1.cs",
@@ -54,8 +407,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_baseda",
-      "community": 29,
-      "community_name": "MiBotica.SolPedido.Entidades.Core",
+      "community": 3,
+      "community_name": "Usuario",
       "norm_label": "baseda.cs"
     },
     {
@@ -154,8 +507,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_opcionda",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "opcionda.cs"
     },
     {
@@ -171,8 +524,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_opcionda_mibotica_solpedido_accesodatos_core_opcionda",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "opcionda"
     },
     {
@@ -188,8 +541,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_opcionda_mibotica_solpedido_accesodatos_core_opcionda_llenarentidad",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".llenarentidad()"
     },
     {
@@ -199,8 +552,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_opcionda_cs_idatareader",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "idatareader"
     },
     {
@@ -216,8 +569,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_opcionda_mibotica_solpedido_accesodatos_core_opcionda_listaopciones",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".listaopciones()"
     },
     {
@@ -227,8 +580,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "mibotica_solpedido_accesodatos_core_opcionda_cs_list",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "list"
     },
     {
@@ -996,7 +1349,7 @@
       "source_file": "MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj",
       "source_location": null,
       "_origin": "ast",
-      "id": "sdk_microsoft_net_sdk_web",
+      "id": "mibotica_solpedido_cliente_web_mibotica_solpedido_cliente_web_csproj_sdk_microsoft_net_sdk_web",
       "community": 0,
       "community_name": "MiBotica.SolPedido.Cliente.Web",
       "norm_label": "microsoft.net.sdk.web"
@@ -1046,7 +1399,7 @@
       "norm_label": "errorviewmodel"
     },
     {
-      "label": "Program.cs",
+      "label": "MiBotica.SolPedido.Cliente.Web/Program.cs",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Program.cs",
       "source_location": "L1",
@@ -1054,10 +1407,10 @@
       "id": "mibotica_solpedido_cliente_web_program",
       "community": 44,
       "community_name": "ExceptionFilterAtributes",
-      "norm_label": "program.cs"
+      "norm_label": "mibotica.solpedido.cliente.web/program.cs"
     },
     {
-      "label": "launchSettings.json",
+      "label": "MiBotica.SolPedido.Cliente.Web/Properties/launchSettings.json",
       "file_type": "code",
       "source_file": "MiBotica.SolPedido.Cliente.Web/Properties/launchSettings.json",
       "source_location": "L1",
@@ -1065,7 +1418,7 @@
       "id": "mibotica_solpedido_cliente_web_properties_launchsettings",
       "community": 1,
       "community_name": "http",
-      "norm_label": "launchsettings.json"
+      "norm_label": "mibotica.solpedido.cliente.web/properties/launchsettings.json"
     },
     {
       "label": "$schema",
@@ -3549,8 +3902,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_entidades_core_opcion_mibotica_solpedido_entidades_core_opcion",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "opcion"
     },
     {
@@ -3925,8 +4278,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_opcionln_mibotica_solpedido_logicanegocio_core_opcionln_listaopciones",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".listaopciones()"
     },
     {
@@ -3936,8 +4289,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "mibotica_solpedido_logicanegocio_core_opcionln_cs_list",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "list"
     },
     {
@@ -4271,8 +4624,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "menuhelper"
     },
     {
@@ -4288,8 +4641,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_helpermenu",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".helpermenu()"
     },
     {
@@ -4299,8 +4652,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ihtmlhelper",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "ihtmlhelper"
     },
     {
@@ -4310,8 +4663,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_cs_list",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "list"
     },
     {
@@ -4321,8 +4674,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "ihtmlcontent",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "ihtmlcontent"
     },
     {
@@ -4338,8 +4691,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_llenaropcionmenu",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".llenaropcionmenu()"
     },
     {
@@ -4349,8 +4702,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "tagbuilder",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "tagbuilder"
     },
     {
@@ -4360,8 +4713,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "iurlhelper",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "iurlhelper"
     },
     {
@@ -4377,8 +4730,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_generahref",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".generahref()"
     },
     {
@@ -4394,8 +4747,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_retornaobjetoparametros",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".retornaobjetoparametros()"
     },
     {
@@ -4405,8 +4758,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "routevaluedictionary",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": "routevaluedictionary"
     },
     {
@@ -4422,8 +4775,8 @@
       },
       "_origin": "ast",
       "id": "mibotica_solpedido_utiles_helpers_menuhelper_mibotica_solpedido_utiles_helpers_menuhelper_rendertag",
-      "community": 30,
-      "community_name": "Opcion",
+      "community": 29,
+      "community_name": "MiBotica.SolPedido.Entidades.Core",
       "norm_label": ".rendertag()"
     },
     {
@@ -4807,6 +5160,325 @@
     }
   ],
   "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_apiusuario",
+      "target": "apiusuario_apiusuario_csproj_framework_net10_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_apiusuario",
+      "target": "apiusuario_apiusuario_csproj_sdk_microsoft_net_sdk_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/ApiUsuario.csproj",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_apiusuario",
+      "target": "nuget_microsoft_aspnetcore_openapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SolPerdidos.slnx",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "solperdidos",
+      "target": "apiusuario_apiusuario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller",
+      "target": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller",
+      "target": "csharp_namespace:82a585a095688810",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller",
+      "target": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller",
+      "target": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "metadata": {
+        "ref_token": "ControllerBase"
+      },
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller",
+      "target": "controllerbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "HttpGet"
+      },
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_get",
+      "target": "httpget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "IEnumerable"
+      },
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_get",
+      "target": "ienumerable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Controllers/ValuesController.cs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "attribute",
+      "metadata": {
+        "ref_token": "HttpPost"
+      },
+      "_origin": "ast",
+      "source": "apiusuario_controllers_valuescontroller_apiusuario_controllers_valuescontroller_post",
+      "target": "apiusuario_controllers_valuescontroller_cs_httppost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings",
+      "target": "apiusuario_properties_launchsettings_profiles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings",
+      "target": "apiusuario_properties_launchsettings_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles",
+      "target": "apiusuario_properties_launchsettings_profiles_http",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles",
+      "target": "apiusuario_properties_launchsettings_profiles_https",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_http",
+      "target": "apiusuario_properties_launchsettings_http_applicationurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_http",
+      "target": "apiusuario_properties_launchsettings_http_commandname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_http",
+      "target": "apiusuario_properties_launchsettings_http_dotnetrunmessages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_http",
+      "target": "apiusuario_properties_launchsettings_http_environmentvariables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_http",
+      "target": "apiusuario_properties_launchsettings_http_launchbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_http_environmentvariables",
+      "target": "apiusuario_properties_launchsettings_environmentvariables_aspnetcore_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_https_environmentvariables",
+      "target": "apiusuario_properties_launchsettings_environmentvariables_aspnetcore_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_https",
+      "target": "apiusuario_properties_launchsettings_https_applicationurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_https",
+      "target": "apiusuario_properties_launchsettings_https_commandname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_https",
+      "target": "apiusuario_properties_launchsettings_https_dotnetrunmessages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_https",
+      "target": "apiusuario_properties_launchsettings_https_environmentvariables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ApiUsuario/Properties/launchSettings.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "apiusuario_properties_launchsettings_profiles_https",
+      "target": "apiusuario_properties_launchsettings_https_launchbrowser",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -6545,6 +7217,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mibotica_solpedido_cliente_web_mibotica_solpedido_cliente_web",
+      "target": "mibotica_solpedido_cliente_web_mibotica_solpedido_cliente_web_csproj_sdk_microsoft_net_sdk_web",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj",
@@ -6582,16 +7264,6 @@
       "_origin": "ast",
       "source": "mibotica_solpedido_cliente_web_mibotica_solpedido_cliente_web",
       "target": "nuget_microsoft_visualstudio_web_codegeneration_design",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "MiBotica.SolPedido.Cliente.Web/MiBotica.SolPedido.Cliente.Web.csproj",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "mibotica_solpedido_cliente_web_mibotica_solpedido_cliente_web",
-      "target": "sdk_microsoft_net_sdk_web",
       "confidence_score": 1.0
     },
     {
@@ -10726,5 +11398,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5aae0728d2f77de4b91de14ac33391bb184f5cf4"
+  "built_at_commit": "2781b0dd005927acf3b610ae9c3ca9c3a01424d7"
 }

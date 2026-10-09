@@ -1,16 +1,16 @@
 # Graph Report - dotnet-tarea  (2026-10-09)
 
 ## Corpus Check
-- 64 files · ~148,581 words
+- 70 files · ~148,756 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 397 nodes · 491 edges · 71 communities (29 shown, 42 thin omitted)
+- 427 nodes · 519 edges · 73 communities (31 shown, 42 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.77)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5aae0728`
+- Built from commit: `2781b0dd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,7 +37,7 @@
 - Delete.cshtml
 - Edit.cshtml
 - MiBotica.SolPedido.Entidades.Core
-- Opcion
+- http
 - Login/Index.cshtml
 - grunt
 - grunt-contrib-compress
@@ -51,6 +51,7 @@
 - markdown-it
 - time-grunt
 - ExceptionFilterAtributes
+- ValuesController
 - icheck.min.js
 - devDependencies
 - jquery-slimscroll/package.json
@@ -91,28 +92,28 @@
   MiBotica.SolPedido.AccesoDatos/Core/OpcionDA.cs → MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs
 - `F()` --indirect_call--> `w()`  [INFERRED]
   MiBotica.SolPedido.Cliente.Web/wwwroot/Content/plugins/iCheck/icheck.min.js → MiBotica.SolPedido.Cliente.Web/wwwroot/Content/bower_components/jquery-slimscroll/jquery.slimscroll.min.js
-- `VariablesWeb` --references--> `Opcion`  [EXTRACTED]
-  MiBotica.SolPedido.Entidades/VariablesWeb.cs → MiBotica.SolPedido.Entidades/Core/Opcion.cs
 - `VariablesWeb` --references--> `Usuario`  [EXTRACTED]
   MiBotica.SolPedido.Entidades/VariablesWeb.cs → MiBotica.SolPedido.Entidades/Core/Usuario.cs
 - `UsuarioLN` --inherits--> `BaseLN`  [EXTRACTED]
   MiBotica.SolPedido.LogicaNegocio/Core/UsuarioLN.cs → MiBotica.SolPedido.LogicaNegocio/Core/BaseLN.cs
+- `UsuarioDA` --inherits--> `BaseDA`  [EXTRACTED]
+  MiBotica.SolPedido.AccesoDatos/Core/UsuarioDA.cs → MiBotica.SolPedido.AccesoDatos/Core/BaseDA.cs
 
 ## Import Cycles
 - None detected.
 
-## Communities (71 total, 42 thin omitted)
+## Communities (73 total, 42 thin omitted)
 
 ### Community 0 - "MiBotica.SolPedido.Cliente.Web"
-Cohesion: 0.11
-Nodes (25): MiBotica.SolPedido.AccesoDatos, net10.0, Microsoft.NET.Sdk, MiBotica.SolPedido.Cliente.Web, net10.0, log4net (3.4.0), MiBotica.SolPedido.Entidades\MiBotica.SolPedido.Entidades, net10.0 (+17 more)
+Cohesion: 0.09
+Nodes (29): ApiUsuario, net10.0, Microsoft.NET.Sdk.Web, MiBotica.SolPedido.AccesoDatos, net10.0, Microsoft.NET.Sdk, MiBotica.SolPedido.Cliente.Web, net10.0 (+21 more)
 
 ### Community 1 - "http"
 Cohesion: 0.13
 Nodes (15): ASPNETCORE_ENVIRONMENT, applicationUrl, commandName, dotnetRunMessages, environmentVariables, launchBrowser, applicationUrl, commandName (+7 more)
 
 ### Community 3 - "Usuario"
-Cohesion: 0.15
+Cohesion: 0.14
 Nodes (9): IConfiguration, BaseDA, IDataReader, List, UsuarioDA, Usuario, List, UsuarioLN (+1 more)
 
 ### Community 4 - "HomeController"
@@ -128,16 +129,20 @@ Cohesion: 0.13
 Nodes (14): ActionName, Controller, HttpPost, IActionResult, List, LoginController, HttpPost, IActionResult (+6 more)
 
 ### Community 29 - "MiBotica.SolPedido.Entidades.Core"
-Cohesion: 0.13
-Nodes (11): MiBotica.SolPedido.Entidades.Core, MiBotica.SolPedido.AccesoDatos.Core, MiBotica.SolPedido.Utiles.Helpers, MiBotica.SolPedido.Cliente.Web.Controllers, MiBotica.SolPedido.LogicaNegocio.Core, MiBotica.SolPedido.Entidades, List, VariablesWeb (+3 more)
+Cohesion: 0.08
+Nodes (23): MiBotica.SolPedido.Entidades.Core, MiBotica.SolPedido.AccesoDatos.Core, MiBotica.SolPedido.Utiles.Helpers, MiBotica.SolPedido.Cliente.Web.Controllers, MiBotica.SolPedido.LogicaNegocio.Core, MiBotica.SolPedido.Entidades, IHtmlContent, IHtmlHelper (+15 more)
 
-### Community 30 - "Opcion"
-Cohesion: 0.16
-Nodes (12): IHtmlContent, IHtmlHelper, IUrlHelper, IDataReader, List, OpcionDA, Opcion, List (+4 more)
+### Community 30 - "http"
+Cohesion: 0.13
+Nodes (15): ASPNETCORE_ENVIRONMENT, applicationUrl, commandName, dotnetRunMessages, environmentVariables, launchBrowser, applicationUrl, commandName (+7 more)
 
 ### Community 44 - "ExceptionFilterAtributes"
 Cohesion: 0.22
 Nodes (6): Attribute, MiBotica.SolPedido.Entidades.Filter, ExceptionContext, IExceptionFilter, ILog, ExceptionFilterAtributes
+
+### Community 47 - "ValuesController"
+Cohesion: 0.22
+Nodes (6): ValuesController, HttpPost, ControllerBase, ApiUsuario.Controllers, HttpGet, IEnumerable
 
 ### Community 53 - "icheck.min.js"
 Cohesion: 0.30
@@ -168,7 +173,7 @@ Cohesion: 0.52
 Nodes (6): attachWheel(), getBarHeight(), hideBar(), _onWheel(), scrollContent(), showBar()
 
 ## Knowledge Gaps
-- **147 isolated node(s):** `MiBotica.SolPedido.AccesoDatos`, `Class1`, `net10.0`, `Microsoft.Data.SqlClient (7.0.2)`, `Microsoft.Extensions.Configuration.Abstractions (10.0.11)` (+142 more)
+- **160 isolated node(s):** `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.12)`, `Microsoft.NET.Sdk.Web`, `ApiUsuario.Controllers`, `$schema` (+155 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **42 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -176,16 +181,16 @@ Nodes (6): attachWheel(), getBarHeight(), hideBar(), _onWheel(), scrollContent()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `devDependencies` to `grunt`, `grunt-contrib-compress`, `grunt-contrib-copy`, `grunt-contrib-htmlmin`, `grunt-contrib-less`, `grunt-contrib-pug`, `grunt-contrib-qunit`, `grunt-csscomb`, `grunt-jscs`, `markdown-it`, `time-grunt`, `grunt-autoprefixer`, `grunt-exec`, `bootstrap/package.json`, `grunt-contrib-clean`, `grunt-contrib-concat`, `grunt-contrib-connect`, `grunt-contrib-jshint`, `grunt-contrib-uglify`, `grunt-contrib-watch`, `grunt-html`, `grunt-jekyll`, `grunt-saucelabs`, `load-grunt-tasks`, `shelljs`, `shx`?**
-  _High betweenness centrality (0.054) - this node is a cross-community bridge._
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `Usuario` connect `Usuario` to `.Index`, `MiBotica.SolPedido.Entidades.Core`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `Opcion` connect `Opcion` to `.Index`, `MiBotica.SolPedido.Entidades.Core`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **What connects `MiBotica.SolPedido.AccesoDatos`, `Class1`, `net10.0` to the rest of the system?**
-  _147 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Why does `Opcion` connect `MiBotica.SolPedido.Entidades.Core` to `.Index`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **What connects `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.12)`, `Microsoft.NET.Sdk.Web` to the rest of the system?**
+  _160 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `MiBotica.SolPedido.Cliente.Web` be split into smaller, more focused modules?**
-  _Cohesion score 0.1076923076923077 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0896551724137931 - nodes in this community are weakly interconnected._
 - **Should `http` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Usuario` be split into smaller, more focused modules?**
-  _Cohesion score 0.14855072463768115 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14 - nodes in this community are weakly interconnected._
