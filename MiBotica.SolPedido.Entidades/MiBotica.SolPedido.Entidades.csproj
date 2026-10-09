@@ -1,22 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <TargetFramework>net472</TargetFramework>
     <RootNamespace>MiBotica.SolPedido.Entidades</RootNamespace>
+    <AssemblyName>MiBotica.SolPedido.Entidades</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="..\.dockerignore">
-      <Link>.dockerignore</Link>
-    </Content>
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="3.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.13" />
   </ItemGroup>
-
 </Project>
