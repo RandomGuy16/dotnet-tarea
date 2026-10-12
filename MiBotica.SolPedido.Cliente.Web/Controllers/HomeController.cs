@@ -1,34 +1,27 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using MiBotica.SolPedido.Cliente.Web.Models;
+using System.Web.Mvc;
 
-namespace MiBotica.SolPedido.Cliente.Web.Controllers;
-
-public class HomeController : Controller
+namespace MiBotica.SolPedido.Cliente.Web.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
-    }
+        public ActionResult Index()
+        {
+            return View();
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public ActionResult Privacy()
+        {
+            return View();
+        }
 
-    // Equivalente a <error statusCode="500" redirect="Home/Error500"/>
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    [Microsoft.AspNetCore.Authorization.AllowAnonymous]
-    public IActionResult Error500()
-    {
-        return View();
-    }
+        public ActionResult Error500()
+        {
+            return View();
+        }
 
-    // Equivalente a <error statusCode="404" redirect="Home/PaginaNoEncontrada"/>
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    [Microsoft.AspNetCore.Authorization.AllowAnonymous]
-    public IActionResult PaginaNoEncontrada()
-    {
-        return View();
+        public ActionResult PaginaNoEncontrada()
+        {
+            return View();
+        }
     }
 }

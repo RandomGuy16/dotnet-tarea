@@ -9,6 +9,6 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="3.4.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.13" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
   </ItemGroup>
 </Project>

@@ -1,74 +1,64 @@
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Net.Http;
 using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Microsoft.AspNetCore.Mvc;
+using System.Web.Mvc;
+using Newtonsoft.Json;
 using MiBotica.SolPedido.Entidades.Core;
+using ClienteEntity = MiBotica.SolPedido.Entidades.Core.Cliente;
 
-namespace MiBotica.SolPedido.Cliente.Web.Controllers;
-
-public class ClienteController : Controller
+namespace MiBotica.SolPedido.Cliente.Web.Controllers
 {
-    private readonly IConfiguration _configuration;
-
-    public ClienteController(IConfiguration configuration)
+    public class ClienteController : Controller
     {
-        _configuration = configuration;
-    }
-
-    public IActionResult Index()
-    {
-        return RedirectToAction(nameof(Consultar));
-    }
-
-    public async Task<IActionResult> Consultar()
-    {
-        using HttpClient client = CreateClient();
-        HttpResponseMessage response = await client.GetAsync("api/cliente");
-        response.EnsureSuccessStatusCode();
-
-        string content = await response.Content.ReadAsStringAsync();
-        List<MiBotica.SolPedido.Entidades.Core.Cliente> clientes = JsonSerializer.Deserialize<List<MiBotica.SolPedido.Entidades.Core.Cliente>>(content)
-            ?? new List<MiBotica.SolPedido.Entidades.Core.Cliente>();
-        return View("Index", clientes);
-    }
-
-    [HttpGet]
-    public IActionResult Create()
-    {
-        return View(new MiBotica.SolPedido.Entidades.Core.Cliente());
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Insertar(MiBotica.SolPedido.Entidades.Core.Cliente cliente)
-    {
-        if (!ModelState.IsValid)
+        private string ApiBaseUrl
         {
-            return View("Create", cliente);
+            get
+            {
+                return ConfigurationManager.AppSettings["apiBaseUrl"]
+                    ?? "http://localhost:5044";
+            }
         }
 
-        using HttpClient client = CreateClient();
-        string content = JsonSerializer.Serialize(cliente);
-        using StringContent requestContent = new StringContent(
-            content,
-            Encoding.UTF8,
-            "application/json");
-        HttpResponseMessage response = await client.PostAsync("api/cliente", requestContent);
-        response.EnsureSuccessStatusCode();
-        return RedirectToAction(nameof(Consultar));
-    }
+        public ActionResult Index()
+        {
+            return Consultar();
+        }
 
-    private HttpClient CreateClient()
-    {
-        string baseUrl = _configuration["ApiUsuario:BaseUrl"]
-            ?? throw new InvalidOperationException("No se configuró ApiUsuario:BaseUrl.");
+        public ActionResult Consultar()
+        {
+            using (var client = new HttpClient())
+            {
+                string json = client.GetStringAsync(
+                    new Uri(ApiBaseUrl.TrimEnd('/') + "/api/cliente")).Result;
+                List<ClienteEntity> clientes = JsonConvert.DeserializeObject<List<ClienteEntity>>(json)
+                    ?? new List<ClienteEntity>();
+                return View("Index", clientes);
+            }
+        }
 
-        HttpClient client = new HttpClient();
-        client.BaseAddress = new Uri(baseUrl.TrimEnd('/') + "/");
-        return client;
+        public ActionResult Create()
+        {
+            return View(new ClienteEntity());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Insertar(ClienteEntity cliente)
+        {
+            using (var client = new HttpClient())
+            {
+                string json = JsonConvert.SerializeObject(cliente);
+                using (var content = new StringContent(json, Encoding.UTF8, "application/json"))
+                {
+                    HttpResponseMessage response = client.PostAsync(
+                        new Uri(ApiBaseUrl.TrimEnd('/') + "/api/cliente"), content).Result;
+                    response.EnsureSuccessStatusCode();
+                }
+            }
+
+            return RedirectToAction("Index");
+        }
     }
 }

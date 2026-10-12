@@ -1,119 +1,93 @@
 using System;
-using System.Threading.Tasks;
 using System.Collections.Generic;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Web.Mvc;
+using System.Web.Security;
 using MiBotica.SolPedido.Entidades;
 using MiBotica.SolPedido.Entidades.Core;
 using MiBotica.SolPedido.LogicaNegocio.Core;
 using MiBotica.SolPedido.Utiles.Helpers;
 
-namespace MiBotica.SolPedido.Cliente.Web.Controllers;
-
-public class LoginController : Controller
+namespace MiBotica.SolPedido.Cliente.Web.Controllers
 {
-    // GET: Login
-    public IActionResult Index()
+    public class LoginController : Controller
     {
-        Usuario u = new Usuario();
-        return View(u);
-    }
-
-    // POST: Login
-    [HttpPost]
-    public async Task<IActionResult> Index(Usuario usuario)
-    {
-        if (string.IsNullOrEmpty(usuario.CodUsuario) || string.IsNullOrEmpty(usuario.ClaveTexto))
+        [AllowAnonymous]
+        public ActionResult Index()
         {
-            ModelState.AddModelError(string.Empty, "Debe llenar el usuario o clave");
+            return View(new Usuario());
         }
 
-        if (ModelState.IsValid)
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult Index(Usuario usuario)
         {
-            try
+            if (string.IsNullOrWhiteSpace(usuario.CodUsuario) ||
+                string.IsNullOrWhiteSpace(usuario.ClaveTexto))
             {
-                usuario.Clave = EncriptacionHelper.EncriptarByte(usuario.ClaveTexto);
-                Usuario res = new UsuarioLN().BuscarUsuario(usuario);
+                ModelState.AddModelError(string.Empty, "Debe llenar el usuario o clave");
+            }
 
-                if (res != null && res.IdUsuario > 0)
+            if (ModelState.IsValid)
+            {
+                try
                 {
-                    // Reemplazo moderno de FormsAuthentication.SetAuthCookie
-                    var claims = new List<Claim>
+                    usuario.Clave = EncriptacionHelper.EncriptarByte(usuario.ClaveTexto);
+                    Usuario resultado = new UsuarioLN().BuscarUsuario(usuario);
+                    if (resultado != null && resultado.IdUsuario > 0)
                     {
-                        new Claim(ClaimTypes.Name, res.CodUsuario)
-                    };
+                        FormsAuthentication.SetAuthCookie(resultado.CodUsuario, true);
+                        VariablesWeb.gUsuario = resultado;
+                        VariablesWeb.gOpciones = new OpcionLN().ListaOpciones();
+                        ParsearAcciones(VariablesWeb.gOpciones);
+                        return RedirectToAction("Index", "Home");
+                    }
 
-                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    var authProperties = new AuthenticationProperties
-                    {
-                        IsPersistent = true
-                    };
-
-                    await HttpContext.SignInAsync(
-                        CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(claimsIdentity),
-                        authProperties);
-
-                    // Llenar datos en variables de entorno / sesión
-                    List<Opcion> lista = new OpcionLN().ListaOpciones();
-                    ParsearAcciones(lista);
-                    VariablesWeb.gOpciones = lista;
-                    VariablesWeb.gUsuario = res;
-
-                    return RedirectToAction("Index", "Home");
+                    ModelState.AddModelError(string.Empty, "Usuario / Clave no validos");
                 }
-                else
+                catch (Exception ex)
                 {
-                    ModelState.AddModelError(string.Empty, "Usuario / Clave no válidos");
+                    ModelState.AddModelError(string.Empty, ex.Message);
                 }
             }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError(string.Empty, ex.Message);
-            }
+
+            return View(usuario);
         }
 
-        return View(usuario);
-    }
-
-    // GET: Login/CerrarSesion
-    public async Task<IActionResult> CerrarSesion()
-    {
-        VariablesWeb.gUsuario = null;
-        VariablesWeb.gOpciones = new List<Opcion>();
-
-        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-
-        return RedirectToAction("Index", "Home");
-    }
-
-    [NonAction]
-    private void ParsearAcciones(List<Opcion> lista)
-    {
-        foreach (Opcion item in lista)
+        public ActionResult CerrarSesion()
         {
-            if (!string.IsNullOrEmpty(item.UrlOpcion))
-            {
-                var partes = item.UrlOpcion.Split('/');
-                int cantidad = partes.Length;
+            FormsAuthentication.SignOut();
+            VariablesWeb.gUsuario = null;
+            VariablesWeb.gOpciones = new List<Opcion>();
+            return RedirectToAction("Index");
+        }
 
-                switch (cantidad)
+        private static void ParsearAcciones(IEnumerable<Opcion> opciones)
+        {
+            foreach (Opcion opcion in opciones)
+            {
+                if (string.IsNullOrWhiteSpace(opcion.UrlOpcion))
                 {
-                    case 3:
-                        item.Area = partes[0];
-                        item.Controladora = partes[1];
-                        item.Accion = partes[2];
-                        break;
-                    case 2:
-                        item.Controladora = partes[0];
-                        item.Accion = partes[1];
-                        break;
-                    case 1:
-                        item.Controladora = partes[0];
-                        item.Accion = "Index";
-                        break;
+                    continue;
+                }
+
+                string[] partes = opcion.UrlOpcion.Split('/');
+                if (partes.Length == 3)
+                {
+                    opcion.Area = partes[0];
+                    opcion.Controladora = partes[1];
+                    opcion.Accion = partes[2];
+                }
+                else if (partes.Length == 2)
+                {
+                    opcion.Controladora = partes[0];
+                    opcion.Accion = partes[1];
+                }
+                else if (partes.Length == 1)
+                {
+                    opcion.Controladora = partes[0];
+                    opcion.Accion = "Index";
                 }
             }
         }

@@ -1,109 +1,76 @@
-using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+using System.Web.Mvc;
 using MiBotica.SolPedido.Entidades.Core;
 using MiBotica.SolPedido.LogicaNegocio.Core;
 using MiBotica.SolPedido.Utiles.Helpers;
 
-namespace MiBotica.SolPedido.Cliente.Web.Controllers;
-
-public class UsuarioController : Controller
+namespace MiBotica.SolPedido.Cliente.Web.Controllers
 {
-    // GET
-    public IActionResult Index()
+    public class UsuarioController : Controller
     {
-        // idk
-        List<Usuario> usuario = new List<Usuario>();
-        usuario = new UsuarioLN().ListaUsuarios();
-        
-        return View(usuario);
-    }
-
-    // GET
-    public IActionResult Create()
-    {
-        Usuario usuario = new Usuario();
-        return View(usuario);
-    }
-    // POST: Usuario/Create
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Create(Usuario usuario)
-    {
-        try
+        public ActionResult Index()
         {
-            usuario.Clave = EncriptacionHelper.EncriptarByte(usuario.        
-                ClaveTexto);
-            new UsuarioLN().InsertarUsuario(usuario);
-            return RedirectToAction(nameof(Index));
+            return View(new UsuarioLN().ListaUsuarios());
         }
-        catch
-        {
-            return View(usuario);
-        }
-    }
-    
-    
-    // GET
-    public IActionResult Edit(int id)
-    {
-        if (id <= 0) return NotFound();
 
-        Usuario usuario = new UsuarioLN().ObtenerUsuario(id);
-        
-        if (usuario == null) return NotFound();
-        
-        return View(usuario);
-    }
-    // POST
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Edit(int id, Usuario usuario)
-    {
-        if (id != usuario.IdUsuario) return NotFound();
-        
-        try
+        public ActionResult Create()
         {
-            if (!string.IsNullOrEmpty(usuario.ClaveTexto))
+            return View(new Usuario());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Usuario usuario)
+        {
+            try
             {
                 usuario.Clave = EncriptacionHelper.EncriptarByte(usuario.ClaveTexto);
+                new UsuarioLN().InsertarUsuario(usuario);
+                return RedirectToAction("Index");
             }
-
-            new UsuarioLN().ActualizarUsuario(usuario);
-            // redirigir a la pagina principal
-            return RedirectToAction(nameof(Index));
+            catch
+            {
+                return View(usuario);
+            }
         }
-        catch
+
+        public ActionResult Edit(int id)
         {
-            return View(usuario);
+            Usuario usuario = new UsuarioLN().ObtenerUsuario(id);
+            return usuario == null ? (ActionResult)HttpNotFound() : View(usuario);
         }
-    }
-    
-    // GET
-    public IActionResult Delete(int id)
-    {
-        if (id <= 0) return NotFound();
 
-        Usuario usuario = new UsuarioLN().ObtenerUsuario(id);
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Usuario usuario)
+        {
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(usuario.ClaveTexto))
+                {
+                    usuario.Clave = EncriptacionHelper.EncriptarByte(usuario.ClaveTexto);
+                }
 
-        if (usuario == null) return NotFound();
-        
-        return View(usuario);
-    }
-    
-    // post
-    [HttpPost, ActionName("Delete")]
-    [ValidateAntiForgeryToken]
-    public IActionResult DeleteConfirmed(int id)
-    {
-        try
+                new UsuarioLN().ActualizarUsuario(usuario);
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View(usuario);
+            }
+        }
+
+        public ActionResult Delete(int id)
+        {
+            Usuario usuario = new UsuarioLN().ObtenerUsuario(id);
+            return usuario == null ? (ActionResult)HttpNotFound() : View(usuario);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
         {
             new UsuarioLN().EliminarUsuario(id);
-            return RedirectToAction(nameof(Index));
-        }
-        catch (Exception e)
-        {
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
     }
 }
