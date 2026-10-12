@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using MiBotica.SolPedido.AccesoDatos.Core;
 using MiBotica.SolPedido.Entidades.Filter;

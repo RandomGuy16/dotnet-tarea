@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using MiBotica.SolPedido.Entidades.Core;
 using MiBotica.SolPedido.LogicaNegocio.Core;

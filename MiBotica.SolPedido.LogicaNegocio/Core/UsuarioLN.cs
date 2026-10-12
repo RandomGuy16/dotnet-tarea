@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using MiBotica.SolPedido.AccesoDatos.Core;
 using MiBotica.SolPedido.Entidades.Core;
 

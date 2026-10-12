@@ -1,3 +1,4 @@
+using System;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
@@ -15,7 +16,7 @@ public abstract class BaseDA
 
     public static void Initialize(IConfiguration configuration)
     {
-        ArgumentNullException.ThrowIfNull(configuration);
+        if (configuration == null) throw new ArgumentNullException(nameof(configuration));
 
         // Replicar el patrón del profesor: cnnSql apunta a la clave en ConnectionStrings
         var connectionKey = configuration["AppSettings:cnnSql"] ?? "SQL";

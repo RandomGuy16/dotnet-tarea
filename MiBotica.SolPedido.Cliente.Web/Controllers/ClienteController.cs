@@ -1,6 +1,10 @@
+using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using MiBotica.SolPedido.Entidades.Core;
 
@@ -27,20 +31,20 @@ public class ClienteController : Controller
         response.EnsureSuccessStatusCode();
 
         string content = await response.Content.ReadAsStringAsync();
-        List<Cliente> clientes = JsonSerializer.Deserialize<List<Cliente>>(content)
-            ?? new List<Cliente>();
+        List<MiBotica.SolPedido.Entidades.Core.Cliente> clientes = JsonSerializer.Deserialize<List<MiBotica.SolPedido.Entidades.Core.Cliente>>(content)
+            ?? new List<MiBotica.SolPedido.Entidades.Core.Cliente>();
         return View("Index", clientes);
     }
 
     [HttpGet]
     public IActionResult Create()
     {
-        return View(new Cliente());
+        return View(new MiBotica.SolPedido.Entidades.Core.Cliente());
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Insertar(Cliente cliente)
+    public async Task<IActionResult> Insertar(MiBotica.SolPedido.Entidades.Core.Cliente cliente)
     {
         if (!ModelState.IsValid)
         {

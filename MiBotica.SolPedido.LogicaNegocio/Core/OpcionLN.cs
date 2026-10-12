@@ -1,4 +1,6 @@
-﻿using MiBotica.SolPedido.Entidades.Core;
+﻿using System;
+using System.Collections.Generic;
+using MiBotica.SolPedido.Entidades.Core;
 using MiBotica.SolPedido.AccesoDatos.Core;
 
 namespace MiBotica.SolPedido.LogicaNegocio.Core
