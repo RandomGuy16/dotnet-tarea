@@ -1,28 +1,22 @@
-using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Web.Http;
 
-namespace ApiUsuario.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class ValuesController : ControllerBase
+namespace ApiUsuario.Controllers
 {
-    // GET api/values
-    [HttpGet]
-    public IEnumerable<string> Get()
+    public class ValuesController : ApiController
     {
-        return new string[] { "value1", "value2" };
-    }
+        public IEnumerable<string> Get()
+        {
+            return new[] { "value1", "value2" };
+        }
 
-    // GET api/values/5
-    [HttpGet("{id}")]
-    public string Get(int id)
-    {
-        return "value";
-    }
+        public string Get(int id)
+        {
+            return "value";
+        }
 
-    // POST api/values
-    [HttpPost]
-    public void Post([FromBody] string value)
-    {
+        public void Post([FromBody] string value)
+        {
+        }
     }
 }
