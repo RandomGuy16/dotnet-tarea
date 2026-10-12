@@ -1,6 +1,6 @@
 namespace MiBotica.SolPedido.Entidades.Core
 {
-    public class Clientes
+    public class Cliente
     {
         public int Codigo { get; set; }
         public string NombreCompleto { get; set; }

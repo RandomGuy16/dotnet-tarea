@@ -10,13 +10,13 @@ namespace ApiUsuario
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
 
-            Variables.ListaClientes = new List<Clientes>
+            Variables.ListaClientes = new List<Cliente>
             {
-                new Clientes { Codigo = 1, NombreCompleto = "Ricaardo Gutarra", Zona = "Callao" },
-                new Clientes { Codigo = 2, NombreCompleto = "David Espinoza", Zona = "Jesus Maria" },
-                new Clientes { Codigo = 3, NombreCompleto = "Victor Hidalgo", Zona = "San Martin" },
-                new Clientes { Codigo = 4, NombreCompleto = "Gladys Gutierrez", Zona = "Pueblo Libre" },
-                new Clientes { Codigo = 5, NombreCompleto = "Mariza Zegarra", Zona = "San Juan" }
+                new Cliente { Codigo = 1, NombreCompleto = "Ricaardo Gutarra", Zona = "Callao" },
+                new Cliente { Codigo = 2, NombreCompleto = "David Espinoza", Zona = "Jesus Maria" },
+                new Cliente { Codigo = 3, NombreCompleto = "Victor Hidalgo", Zona = "San Martin" },
+                new Cliente { Codigo = 4, NombreCompleto = "Gladys Gutierrez", Zona = "Pueblo Libre" },
+                new Cliente { Codigo = 5, NombreCompleto = "Mariza Zegarra", Zona = "San Juan" }
             };
         }
     }

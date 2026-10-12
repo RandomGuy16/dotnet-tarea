@@ -27,20 +27,20 @@ public class ClienteController : Controller
         response.EnsureSuccessStatusCode();
 
         string content = await response.Content.ReadAsStringAsync();
-        List<Clientes> clientes = JsonSerializer.Deserialize<List<Clientes>>(content)
-            ?? new List<Clientes>();
+        List<Cliente> clientes = JsonSerializer.Deserialize<List<Cliente>>(content)
+            ?? new List<Cliente>();
         return View("Index", clientes);
     }
 
     [HttpGet]
     public IActionResult Create()
     {
-        return View(new Clientes());
+        return View(new Cliente());
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Insertar(Clientes cliente)
+    public async Task<IActionResult> Insertar(Cliente cliente)
     {
         if (!ModelState.IsValid)
         {

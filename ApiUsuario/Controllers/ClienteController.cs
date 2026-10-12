@@ -7,14 +7,14 @@ namespace ApiUsuario.Controllers
 {
     public class ClienteController : ApiController
     {
-        public IEnumerable<Clientes> Get()
+        public IEnumerable<Cliente> Get()
         {
             return Variables.ListaClientes;
         }
 
         public IHttpActionResult Get(int id)
         {
-            Clientes cliente = Variables.ListaClientes.FirstOrDefault(item => item.Codigo == id);
+            Cliente cliente = Variables.ListaClientes.FirstOrDefault(item => item.Codigo == id);
 
             if (cliente == null)
             {
@@ -24,7 +24,7 @@ namespace ApiUsuario.Controllers
             return Ok(cliente);
         }
 
-        public IHttpActionResult Post([FromBody] Clientes value)
+        public IHttpActionResult Post([FromBody] Cliente value)
         {
             if (value == null)
             {
@@ -40,14 +40,14 @@ namespace ApiUsuario.Controllers
             return CreatedAtRoute("DefaultApi", new { id = value.Codigo }, value);
         }
 
-        public IHttpActionResult Put(int id, [FromBody] Clientes value)
+        public IHttpActionResult Put(int id, [FromBody] Cliente value)
         {
             if (value == null)
             {
                 return BadRequest("El cliente es requerido.");
             }
 
-            Clientes cliente = Variables.ListaClientes.FirstOrDefault(item => item.Codigo == id);
+            Cliente cliente = Variables.ListaClientes.FirstOrDefault(item => item.Codigo == id);
             if (cliente == null)
             {
                 return NotFound();
@@ -60,7 +60,7 @@ namespace ApiUsuario.Controllers
 
         public IHttpActionResult Delete(int id)
         {
-            Clientes cliente = Variables.ListaClientes.FirstOrDefault(item => item.Codigo == id);
+            Cliente cliente = Variables.ListaClientes.FirstOrDefault(item => item.Codigo == id);
             if (cliente == null)
             {
                 return NotFound();
