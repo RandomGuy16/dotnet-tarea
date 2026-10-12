@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using MiBotica.SolPedido.Entidades.Core;
 using System.Data;
 using Microsoft.Data.SqlClient;
