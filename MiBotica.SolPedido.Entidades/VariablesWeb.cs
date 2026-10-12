@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using MiBotica.SolPedido.Entidades.Core;
 
 namespace MiBotica.SolPedido.Entidades;

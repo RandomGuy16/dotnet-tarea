@@ -1,0 +1,33 @@
+@model IEnumerable<MiBotica.SolPedido.Entidades.Core.Clientes>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Lista de Clientes</h3>
+        <a asp-action="Create" class="btn btn-primary pull-right">Insertar cliente</a>
+    </div>
+    <div class="box-body table-responsive no-padding">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre completo</th>
+                    <th>Zona</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var cliente in Model)
+            {
+                <tr>
+                    <td>@cliente.Codigo</td>
+                    <td>@cliente.NombreCompleto</td>
+                    <td>@cliente.Zona</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

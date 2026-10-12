@@ -74,3 +74,5 @@ graphify-out/.graphify_root
 # External template folder (assets are copied to MiBotica.SolPedido.Cliente.Web/wwwroot/Content)
 AdminLTE-2.4.3/
 
+# Local coding-agent context
+AGENTS.md

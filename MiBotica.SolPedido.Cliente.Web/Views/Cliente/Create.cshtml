@@ -1,0 +1,28 @@
+@model MiBotica.SolPedido.Entidades.Core.Clientes
+
+@{
+    ViewData["Title"] = "Insertar cliente";
+}
+
+<h1>Insertar cliente</h1>
+
+<form asp-action="Insertar" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Codigo"></label>
+        <input asp-for="Codigo" class="form-control" />
+        <span asp-validation-for="Codigo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NombreCompleto"></label>
+        <input asp-for="NombreCompleto" class="form-control" />
+        <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Zona"></label>
+        <input asp-for="Zona" class="form-control" />
+        <span asp-validation-for="Zona" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Consultar" class="btn btn-default">Regresar</a>
+</form>
